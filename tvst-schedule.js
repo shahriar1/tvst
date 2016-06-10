@@ -16,8 +16,8 @@ var countryShort = 'US';
 var filter = '';
 
 program
-    .option('-c --country <country>', 'ISO Country Code - eg. US or GB')
-    .option('-f --filter <filter>', 'Filter By Show Name')
+    .option('-c --country <country>', 'ISO country code - eg. US or GB etc.')
+    .option('-f --filter <filter>', 'Filter by show name')
     .action((day = 'today') => {
 
         let parsedDate = new Date(day);

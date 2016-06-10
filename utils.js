@@ -38,7 +38,7 @@ module.exports = {
         return Promise.resolve().then(() => {
 
             if (!_.isArray(showsResponse.data)) {
-                throw new Error('not a valid daily API response of shows!');
+                throw new Error('Not a valid daily API response of shows!');
             }
 
             let responseData = showsResponse.data;

@@ -12,11 +12,11 @@ module.exports = {
      */
     dailyShowsList: function (shows, showDate) {
         if (shows.length < 1) {
-            console.log(chalk.bold.red('No TV Shows Found at ' + showDate.format('MMM Do,YYYY')));
+            console.log(chalk.bold.red('No TV shows found at ' + showDate.format('MMM Do,YYYY')));
             return;
         }
         
-        console.log(chalk.bold.green('List of TV  Shows at ' + showDate.format('MMM Do,YYYY')));
+        console.log(chalk.bold.green('List of TV  shows at ' + showDate.format('MMM Do,YYYY')));
         let table = new Table();
         table.push([
             chalk.bold.green('Name'),
@@ -30,8 +30,8 @@ module.exports = {
 ${chalk.grey.bold('Season:')} ${show.season}
 ${chalk.grey.bold('Episode:')} ${show.episode}`;
             
-            let showTime = `${chalk.grey.bold('Network Time:')} ${show.time.format('hh:mm A')}
-${chalk.grey.bold('Your Time:')} ${show.time.tz(moment.tz.guess()).format('hh:mm A')}
+            let showTime = `${chalk.grey.bold('Network time:')} ${show.time.format('hh:mm A')}
+${chalk.grey.bold('Your time:')} ${show.time.tz(moment.tz.guess()).format('hh:mm A')}
 ${chalk.grey.bold('Countdown:')} ${show.timestamp.tz(moment.tz.guess()).fromNow()}`;
             
             table.push(
@@ -54,10 +54,10 @@ ${chalk.grey.bold('Countdown:')} ${show.timestamp.tz(moment.tz.guess()).fromNow(
         const nextEpisodeInfo = `
 ${chalk.green.bold(show.name)}
 ${chalk.bold('Network:')} ${show.network}
-${chalk.bold('Episode Name:')} ${episode.name}
+${chalk.bold('Episode name:')} ${episode.name}
 ${chalk.bold('Details:')} ${chalk.grey.bold('Season')}: ${episode.season} ${chalk.grey.bold('Episode')}: ${episode.episode}
-${chalk.bold('Network Time:')} ${episode.timestamp.format('dddd, MMMM Do YYYY, h:mm:ss a')}
-${chalk.bold('User Time:')} ${episode.timestamp.tz(moment.tz.guess()).format('dddd, MMMM Do YYYY, h:mm:ss a')}
+${chalk.bold('Network time:')} ${episode.timestamp.format('dddd, MMMM Do YYYY, h:mm:ss a')}
+${chalk.bold('User time:')} ${episode.timestamp.tz(moment.tz.guess()).format('dddd, MMMM Do YYYY, h:mm:ss a')}
 ${chalk.bold('Countdown:')} ${episode.timestamp.fromNow()}`;
 
         console.log(nextEpisodeInfo);
@@ -76,11 +76,11 @@ ${chalk.bold('Countdown:')} ${episode.timestamp.fromNow()}`;
         const previousEpisodeInfo = `
 ${message}
 ${chalk.bold('Network:')} ${show.network}
-${chalk.bold('Last Episode Name:')} ${episode.name}
+${chalk.bold('Last episode name:')} ${episode.name}
 ${chalk.bold('Details:')} ${chalk.grey.bold('Season')}: ${episode.season} ${chalk.grey.bold('Episode')}: ${episode.episode}
-${chalk.bold('Network Time:')} ${episode.timestamp.format('dddd, MMMM Do YYYY, h:mm:ss a')}
-${chalk.bold('User Time:')} ${episode.timestamp.tz(moment.tz.guess()).format('dddd, MMMM Do YYYY, h:mm:ss a')}
-${chalk.bold('Aired Date:')} ${episode.timestamp.fromNow()}`;
+${chalk.bold('Network time:')} ${episode.timestamp.format('dddd, MMMM Do YYYY, h:mm:ss a')}
+${chalk.bold('User time:')} ${episode.timestamp.tz(moment.tz.guess()).format('dddd, MMMM Do YYYY, h:mm:ss a')}
+${chalk.bold('Aired date:')} ${episode.timestamp.fromNow()}`;
         
         console.log(previousEpisodeInfo);
     },
@@ -91,6 +91,6 @@ ${chalk.bold('Aired Date:')} ${episode.timestamp.fromNow()}`;
      * @param {String} keyWord
      */
     noShowFound: function (keyWord) {
-        console.log('\n' + chalk.red('No Show Found Matching ') + chalk.grey.bold(keyWord) + '\n');
+        console.log('\n' + chalk.red('No show found matching ') + chalk.grey.bold(keyWord) + '\n');
     }
 };
