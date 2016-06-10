@@ -2,6 +2,6 @@ language: node_js
 node_js:
   - stable
 before_install:
-  - ln -s /usr/bin/nodejs /usr/bin/node
+  - sudo ln -s /usr/bin/nodejs /usr/bin/node
 script: npm test
 
