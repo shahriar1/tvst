@@ -6,7 +6,7 @@ moment.tz.setDefault('America/New_York');
 
 
 test('ne - next episode should return valid output', async t => {
-    const {stdout} = await execa.shell('../tvst.js ne "person of interest"');
+    const {stdout} = await execa.shell('./../tvst.js ne "person of interest"');
     t.true(stdout.includes('Person of Interest'));
     t.true(stdout.includes('Episode Name:'));
     t.true(stdout.includes('Network: CBS'));
@@ -17,7 +17,7 @@ test('ne - next episode should return valid output', async t => {
 
 
 test('ne - next episode with a keyword should return valid output', async t => {
-    const {stdout} = await execa.shell('../tvst.js pe "game"');
+    const {stdout} = await execa.shell('./../tvst.js pe "game"');
     t.true(stdout.includes('Game of Thrones'));
     t.true(stdout.includes('The Game'));
     t.true(stdout.includes('Game On'));
@@ -31,7 +31,7 @@ test('ne - next episode with a keyword should return valid output', async t => {
 });
 
 test('pe - previous episode should return valid output', async t => {
-    const {stdout} = await execa.shell('../tvst.js pe "game of thrones"');
+    const {stdout} = await execa.shell('./../tvst.js pe "game of thrones"');
     t.true(stdout.includes('Game of Thrones'));
     t.true(stdout.includes('Episode Name:'));
     t.true(stdout.includes('Network: HBO'));
@@ -41,7 +41,7 @@ test('pe - previous episode should return valid output', async t => {
 });
 
 test('schedule - schedule of today should return valid output', async t => {
-    const {stdout} = await execa.shell('../tvst.js schedule today');
+    const {stdout} = await execa.shell('./../tvst.js schedule today');
     const header = 'List of TV  Shows at ' + moment().format('MMM Do,YYYY');
     t.true(stdout.includes(header));
     t.true(stdout.includes('Name'));
@@ -55,7 +55,7 @@ test('schedule - schedule of today should return valid output', async t => {
 });
 
 test('schedule - schedule  of tomorrow should return valid output', async t => {
-    const {stdout} = await execa.shell('../tvst.js schedule tomorrow');
+    const {stdout} = await execa.shell('./../tvst.js schedule tomorrow');
     const header = 'List of TV  Shows at ' + moment().add(1, 'days').format('MMM Do,YYYY');
     t.true(stdout.includes(header));
     t.true(stdout.includes('Name'));
@@ -70,7 +70,7 @@ test('schedule - schedule  of tomorrow should return valid output', async t => {
 
 
 test('schedule - schedule of yesterday should return valid output', async t => {
-    const {stdout} = await execa.shell('../tvst.js schedule yesterday');
+    const {stdout} = await execa.shell('./../tvst.js schedule yesterday');
     const header = 'List of TV  Shows at ' + moment().add(-1, 'days').format('MMM Do,YYYY');
     t.true(stdout.includes(header));
     t.true(stdout.includes('Name'));
@@ -84,7 +84,7 @@ test('schedule - schedule of yesterday should return valid output', async t => {
 });
 
 test('invalid command should return help', async t => {
-    const {stdout} = await execa.shell('../tvst.js unknows');
+    const {stdout} = await execa.shell('./../tvst.js unknows');
     t.true(stdout.includes('Usage: tvst [options] [command]'));
     t.true(stdout.includes('-h, --help     output usage information'));
 });
