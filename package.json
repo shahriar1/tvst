@@ -1,0 +1,58 @@
+{
+  "name": "tvst",
+  "version": "0.0.1",
+  "description": "TV Shows Tracker (TVST) in command-line",
+  "main": "tvst.js",
+  "scripts": {
+    "pretest": "npm run lint",
+    "test": "ava",
+    "lint": "jshint ./*.js"
+  },
+  "author": {
+    "name": "Shahriar Mahmood",
+    "email": "shahriar1@ymail.com",
+    "url": "https://github.com/shahriar1"
+  },
+  "license": "MIT",
+  "bin": {
+    "tvst": "./tvst.js"
+  },
+  "ava": {
+    "files": [
+      "tests/*.js"
+    ]
+  },
+  "dependencies": {
+    "axios": "^0.11.1",
+    "chalk": "^1.1.3",
+    "cli-table": "^0.3.1",
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
+    "date.js": "^0.3.1",
+    "fuzzyset.js": "0.0.1",
+    "lodash": "^4.13.1",
+    "moment": "^2.13.0",
+    "moment-timezone": "^0.5.4",
+    "ora": "^0.2.3"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "execa": "^0.4.0",
+    "jshint": "^2.9.2"
+  },
+  "keywords": [
+    "tv",
+    "tvmaze",
+    "shows",
+    "series",
+    "tracker",
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shahriar1/tvst.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shahriar1/tvst/issues"
+  }
+}
