@@ -1,5 +1,5 @@
 import test from 'ava';
-const utils = require('../utils');
+const utils = require('../src/utils');
 const moment = require('moment-timezone');
 const _ = require('lodash');
 moment.tz.setDefault('America/New_York');
