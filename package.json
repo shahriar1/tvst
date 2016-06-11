@@ -39,6 +39,7 @@
   },
   "devDependencies": {
     "ava": "^0.15.2",
+    "babel-cli": "^6.10.1",
     "execa": "^0.4.0",
     "jshint": "^2.9.2"
   },
