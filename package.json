@@ -2,8 +2,10 @@
   "name": "tvst",
   "version": "0.0.1",
   "description": "TV Shows Tracker (TVST) in command-line",
-  "main": "tvst.js",
+  "main": "./lib/tvst.js",
   "scripts": {
+    "compile": "babel -d lib/ src/",
+    "prepublish": "npm run compile",
     "pretest": "npm run lint",
     "test": "ava",
     "lint": "jshint ./*.js"
@@ -15,7 +17,7 @@
   },
   "license": "MIT",
   "bin": {
-    "tvst": "./tvst.js"
+    "tvst": "./lib/tvst.js"
   },
   "ava": {
     "files": [
