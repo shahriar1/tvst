@@ -1,4 +1,4 @@
-#tvst [![Build Status](https://travis-ci.org/shahriar1/tvst.svg?branch=development)](https://travis-ci.org/shahriar1/tvst)
+#tvst [![Build Status](https://travis-ci.org/shahriar1/tvst.svg?branch=master)](https://travis-ci.org/shahriar1/tvst)
 
 > TV Shows Tracker (TVST) on command line
 
