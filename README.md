@@ -101,6 +101,11 @@ Get next episode schedule with details of a specific show - `tvst pe 'game of th
 
 ###### If you're not sure about spelling of a specific show name, just guess, it will return list of possible shows
 
+#### 
+
+
+
+### _More awesome features are in development_ :smile:
 
 
 ## Credits
