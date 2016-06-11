@@ -1,6 +1,6 @@
 {
   "name": "tvst",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "TV Shows Tracker (TVST) in command-line",
   "main": "./lib/tvst.js",
   "scripts": {
