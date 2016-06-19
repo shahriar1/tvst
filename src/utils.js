@@ -45,7 +45,7 @@ module.exports = {
             let allShows = [];
             responseData.forEach(show => {
                 
-                let timeZone = show.show.network.country ? show.show.network.country.timezone : 'America/New_York';
+                let timeZone = show.show.network.country ? show.show.network.country.timezone : show.webChannel.country ? show.webChannel.country.timezone : 'America/New_York';
                 let timeStamp = show.airstamp ? moment(show.airstamp) : '';
                 //set default timezone
                 moment.tz.setDefault(timeZone);
@@ -56,8 +56,8 @@ module.exports = {
                     season: show.season ? show.season : '',
                     episode: show.number ? show.number : '',
                     premiered: show.show.premiered ? show.show.premiered : '',
-                    network: show.show.network.name ? show.show.network.name : '',
-                    country: show.show.network.country ? show.show.network.country : {},
+                    network: show.show.network.name ? show.show.network.name : show.webChannel ? show.webChannel.name : '',
+                    country: show.show.network.country ? show.show.network.country : show.show.webChannel.country ? show.show.webChannel.country : {},
                     timeZone: timeZone,
                     timestamp: timeStamp,
                     time: show.airtime ? moment(show.airtime, 'HH:mm') : timeStamp,
@@ -123,13 +123,12 @@ module.exports = {
      * @returns {Object}
      */
     formatShow: function (show) {
-        
         return {
             tvRageId: show.id,
             name: show.name,
             premiered: show.premiered ? show.premiered : '',
-            network: show.network ? show.network.name : '',
-            country: show.network ? show.network.country : {},
+            network: show.network ? show.network.name : show.webChannel ? show.webChannel.name : '',
+            country: show.network ? show.network.country : show.webChannel ? show.webChannel.country : {},
             status: show.status ? show.status : '',
             runtime: show.runtime ? show.runtime : '',
             link: show._links.self ? show._links.self.href : '',

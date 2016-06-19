@@ -19,7 +19,6 @@ test('ne - next episode should return valid output', async t => {
 
 test('ne - next episode with a keyword should return valid output', async t => {
     const {stdout} = await execa.shell('../lib/tvst.js pe "game"');
-    console.log(stdout);
     t.true(stdout.includes('Game of Thrones'));
     t.true(stdout.includes('The Game'));
     t.true(stdout.includes('Game On'));
