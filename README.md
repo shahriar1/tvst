@@ -1,4 +1,4 @@
-#tvst [![Build Status](https://travis-ci.org/shahriar1/tvst.svg?branch=master)](https://travis-ci.org/shahriar1/tvst)
+# tvst [![Build Status](https://travis-ci.org/shahriar1/tvst.svg?branch=master)](https://travis-ci.org/shahriar1/tvst)
 
 > TV Shows Tracker (TVST) on command line
 
@@ -55,7 +55,7 @@ $ tvst schedule --help
     -f --filter <filter>    Filter By Show Name
 ```
 
-####Example:
+#### Example:
 
 Get today's schedule - `tvst schedule today`
 
@@ -77,14 +77,14 @@ Get today's schedule of a country - `tvst schedule today -c GB`
 tvst ne <show-name>
 ```
 
-####Example
+#### Example
 
 Get next episode schedule with details of a specific show - `tvst ne 'game of thrones'`
 
 ###### If you're not sure about spelling of a specific show name, just guess, it will return list of possible shows
 
 
-######If any show has no update of next episode then it returns details of previous episode
+###### If any show has no update of next episode then it returns details of previous episode
 
 
 
@@ -95,7 +95,7 @@ Get next episode schedule with details of a specific show - `tvst ne 'game of th
 tvst pe <show-name>
 ```
 
-####Example
+#### Example
 
 Get next episode schedule with details of a specific show - `tvst pe 'game of thrones'`
 
