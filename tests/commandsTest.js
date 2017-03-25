@@ -8,7 +8,6 @@ moment.tz.setDefault('America/New_York');
 test('ne - next episode should return valid output', async t => {
     const {stdout} = await execa.shell('../src/tvst.js ne "person of interest"');
     t.true(stdout.includes('Person of Interest'));
-    t.true(stdout.includes('Episode name:'));
     t.true(stdout.includes('Network: CBS'));
     t.true(stdout.includes('Network time:'));
     t.true(stdout.includes('User time:'));
@@ -18,10 +17,8 @@ test('ne - next episode should return valid output', async t => {
 
 
 test('ne - next episode with a keyword should return valid output', async t => {
-    const {stdout} = await execa.shell('../lib/tvst.js pe "game"');
+    const {stdout} = await execa.shell('../lib/tvst.js pe "game thrones"');
     t.true(stdout.includes('Game of Thrones'));
-    t.true(stdout.includes('The Game'));
-    t.true(stdout.includes('Game On'));
     t.true(stdout.includes('Last episode name:'));
     t.true(stdout.includes('Network: HBO'));
     t.true(stdout.includes('Network time:'));

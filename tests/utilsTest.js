@@ -181,7 +181,6 @@ test('getNextEpisodes - should return shows matching keyword', async t => {
                     t.truthy(episodeDetails.show.previousEpisode);
                     t.truthy(episodeDetails.episode.name);
                 });
-            })
-            ;
+            });
     });
 });
