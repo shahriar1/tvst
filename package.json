@@ -4,7 +4,7 @@
   "description": "TV Shows Tracker (TVST) in command-line",
   "main": "./lib/tvst.js",
   "scripts": {
-    "compile": "babel -d lib/ src/",
+    "compile": "rimraf lib && babel -d lib/ src/",
     "prepublish": "npm run compile",
     "pretest": "npm run lint",
     "test": "ava",
@@ -42,7 +42,8 @@
     "ava": "^0.15.2",
     "babel-cli": "^6.10.1",
     "execa": "^0.4.0",
-    "jshint": "^2.9.2"
+    "jshint": "^2.9.2",
+    "rimraf": "^2.6.1"
   },
   "keywords": [
     "tv",
