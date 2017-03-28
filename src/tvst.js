@@ -15,6 +15,10 @@ program
 program
     .command('pe <show-name>', 'Date & Air time of the previous episode of a show');
 
+program
+  .command('fav-add', 'Add TV shows in your favorite list');
+
+
 //open help if no argument is provided 
 if (process.argv.length <= 2) {
     program.help();
