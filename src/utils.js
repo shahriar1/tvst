@@ -268,7 +268,7 @@ module.exports = {
         fs.readFile(bookmarkFileName, 'utf8', function(err, data) {
               let alreadyAddedShows = [];
               if (err) {
-                  alreadyAddedShows['favShows'] = [];
+                  alreadyAddedShows.favShows = [];
               } else {
                   alreadyAddedShows = JSON.parse(data);
               }

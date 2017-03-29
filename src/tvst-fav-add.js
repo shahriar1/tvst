@@ -38,7 +38,7 @@ inquirer.prompt([showNameInput]).then(function(answer) {
           choices: showDetails
         };
       inquirer.prompt([showSelectionInput]).then(function(answer) {
-        utils.bookmarkShows(answer.favShows)
-      })
+        utils.bookmarkShows(answer.favShows);
+      });
     });
 });
