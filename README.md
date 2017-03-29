@@ -2,7 +2,7 @@
 
 > TV Shows Tracker (TVST) on command line
 
-[![asciicast](https://asciinema.org/a/59v8mewjzyqt09x5c8j3qwike.png)](https://asciinema.org/a/59v8mewjzyqt09x5c8j3qwike)
+![TVST command line](tvst.gif)
 
 
 ### Install
@@ -32,7 +32,7 @@ npm install -g tvst
 
     -h, --help     output usage information
     -V, --version  output the version number
-    
+
 ```   
 
 
@@ -101,7 +101,7 @@ Get next episode schedule with details of a specific show - `tvst pe 'game of th
 
 ###### If you're not sure about spelling of a specific show name, just guess, it will return list of possible shows
 
-#### 
+####
 
 
 
