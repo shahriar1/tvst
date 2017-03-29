@@ -1,6 +1,7 @@
 const axios = require('axios');
 const _ = require('lodash');
 const moment = require('moment-timezone');
+const path = require('path');
 require('fuzzyset.js');
 
 module.exports = {
@@ -254,5 +255,31 @@ module.exports = {
                 return showDetails;
             });
         });
+    },
+
+  /**
+   * bookmark a shows
+   *
+   * @param newShows
+   */
+  bookmarkShows: function(newShows) {
+        const fs = require('fs');
+        const bookmarkFileName = __dirname + path.sep + 'fav.json';
+        fs.readFile(bookmarkFileName, 'utf8', function(err, data) {
+              let alreadyAddedShows = [];
+              if (err) {
+                  alreadyAddedShows['favShows'] = [];
+              } else {
+                  alreadyAddedShows = JSON.parse(data);
+              }
+
+              let shows = {favShows: _.union(alreadyAddedShows.favShows, newShows)};
+              fs.writeFile(bookmarkFileName, JSON.stringify(shows), function(err) {
+                  if (err) {
+                      console.log('Error adding shows');
+                  }
+              });
+          }
+        );
     }
 };
