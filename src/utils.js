@@ -293,7 +293,7 @@ module.exports = {
         const bookmarkFileName = __dirname + '/../' + path.sep + 'fav.json';
         fs.readFile(bookmarkFileName, 'utf8', function(err, data) {
               if (err) {
-                  console.log("Error getting your favorite TV Shows' file");
+                  fn([]);
               } else {
 
                   let shows = JSON.parse(data);
