@@ -18,6 +18,9 @@ program
 program
   .command('fav-add', 'Add TV shows in your favorite list');
 
+program
+  .command('fav-list', 'Show list of your favorite shows');
+
 
 //open help if no argument is provided 
 if (process.argv.length <= 2) {

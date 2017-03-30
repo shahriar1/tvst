@@ -2,6 +2,8 @@ const axios = require('axios');
 const _ = require('lodash');
 const moment = require('moment-timezone');
 const path = require('path');
+const fs = require('fs');
+
 require('fuzzyset.js');
 
 module.exports = {
@@ -260,10 +262,9 @@ module.exports = {
   /**
    * bookmark a shows
    *
-   * @param newShows
+   * @param {Array} newShows
    */
   bookmarkShows: function(newShows) {
-        const fs = require('fs');
         const bookmarkFileName = __dirname + path.sep + 'fav.json';
         fs.readFile(bookmarkFileName, 'utf8', function(err, data) {
               let alreadyAddedShows = [];
@@ -281,5 +282,34 @@ module.exports = {
               });
           }
         );
+    },
+
+  /**
+   * 
+   * @param {Function} fn
+   */
+  formatBookmarkedShows: function(fn) {
+        let _this = this;
+        const bookmarkFileName = __dirname + '/../' + path.sep + 'fav.json';
+        fs.readFile(bookmarkFileName, 'utf8', function(err, data) {
+              if (err) {
+                  console.log("Error getting your favorite TV Shows' file");
+              } else {
+
+                  let shows = JSON.parse(data);
+                  let allShows = shows.favShows.map( showId => {
+                      let showUrl = `http://api.tvmaze.com/shows/${showId.toString()}`;
+                      return _this.fetch(showUrl);
+                  });
+
+                  return Promise.all(allShows).then(function(response) {
+                      let allShows = response.map( (episodeResponse, index) =>  {
+                         return _this.formatShow(episodeResponse.data);
+                      });
+
+                      fn(allShows);
+                  });
+              }
+          });
     }
 };
