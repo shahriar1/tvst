@@ -263,21 +263,22 @@ module.exports = {
    * bookmark a shows
    *
    * @param {Array} newShows
+   * @param {Boolean} override
    */
-  bookmarkShows: function(newShows) {
+  bookmarkShows: function(newShows, override = false) {
         const bookmarkFileName = __dirname + path.sep + 'fav.json';
         fs.readFile(bookmarkFileName, 'utf8', function(err, data) {
               let alreadyAddedShows = [];
-              if (err) {
+              if (err || override) {
                   alreadyAddedShows.favShows = [];
               } else {
                   alreadyAddedShows = JSON.parse(data);
               }
-
+            
               let shows = {favShows: _.union(alreadyAddedShows.favShows, newShows)};
               fs.writeFile(bookmarkFileName, JSON.stringify(shows), function(err) {
                   if (err) {
-                      console.log('Error adding shows');
+                      console.log('Error bookmarking shows');
                   }
               });
           }
@@ -290,7 +291,7 @@ module.exports = {
    */
   formatBookmarkedShows: function(fn) {
         let _this = this;
-        const bookmarkFileName = __dirname + '/../' + path.sep + 'fav.json';
+        const bookmarkFileName = __dirname + path.sep + 'fav.json';
         fs.readFile(bookmarkFileName, 'utf8', function(err, data) {
               if (err) {
                   fn([]);
@@ -306,7 +307,7 @@ module.exports = {
                       let allShows = response.map( (episodeResponse, index) =>  {
                          return _this.formatShow(episodeResponse.data);
                       });
-
+                      
                       fn(allShows);
                   });
               }

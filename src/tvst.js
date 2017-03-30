@@ -21,6 +21,8 @@ program
 program
   .command('fav-list', 'Show list of your favorite shows');
 
+program
+  .command('fav-remove', 'Show list of your favorite shows');
 
 //open help if no argument is provided 
 if (process.argv.length <= 2) {
