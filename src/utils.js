@@ -128,7 +128,7 @@ module.exports = {
    */
   formatShow: function(show) {
     return {
-      tvRageId: show.id,
+      id: show.id,
       name: show.name,
       premiered: show.premiered ? show.premiered : '',
       network: show.network ? show.network.name : show.webChannel ? show.webChannel.name : '',
@@ -274,6 +274,7 @@ module.exports = {
    *
    * @param {Array} newShows
    * @param {Boolean} override
+   * @returns {Promise}
    */
   bookmarkShows: function(newShows, override = false) {
     const bookmarkFileName = this.getBookmarkFile();
@@ -293,8 +294,8 @@ module.exports = {
 
   /**
    * format bookmarked shows
-   *
-   * @param {Function} fn
+   * 
+   * @returns {Promise}
    */
   formatBookmarkedShows: function() {
     let _this = this;

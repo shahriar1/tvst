@@ -34,7 +34,7 @@ test('formatDailyShows - should return all daily shows in a nice format', t => {
                 t.is(luciferEpisode.season, 1);
                 t.is(luciferEpisode.episode, 2);
                 t.is(luciferEpisode.timestamp.format('YYYY-MM-DD'), '2016-02-01' );
-                
+
                 let wweRawEpisode = _.find(shows, {'name' : 'WWE Monday Night RAW'});
                 t.is(wweRawEpisode.name, 'WWE Monday Night RAW');
                 t.is(wweRawEpisode.network, 'USA Network');
@@ -95,10 +95,10 @@ test('formatShow - should return show according nice format', t => {
         let formattedShow = utils.formatShow(result.data);
         t.not('HBO', unformattedShow.network);
         t.falsy(unformattedShow.link);
-        
+
         t.truthy(formattedShow.link);
         t.is('HBO', formattedShow.network);
-        
+
     });
 });
 
@@ -107,7 +107,7 @@ test('formatShow - should return show according nice format', t => {
 test('formatEpisode - should return episode according nice format', t => {
     return utils.fetch('http://api.tvmaze.com/shows/82').then(showResult => {
         let unformattedShow = showResult.data;
-        
+
         return utils.fetch('http://api.tvmaze.com/episodes/729573').then(episodeResult => {
             let unformattedEpisode = episodeResult.data;
             let formattedShow = utils.formatEpisode(unformattedEpisode, showResult.data);
@@ -149,14 +149,14 @@ test('getNextEpisodes - should return shows matching keyword', async t => {
         return Promise.resolve()
             .then( () => {
                 return utils.formatShowsByEpisodeType(shows)
-                
+
             })
             .then((showsByEpisodeType) => {
                 return utils.getNextEpisodes(showsByEpisodeType);
             })
             .then(episodesResult => {
                 episodesResult.forEach( episodeDetails => {
-                    
+
                     t.truthy(episodeDetails.show.nextEpisode);
                     t.truthy(episodeDetails.episode.name);
                 });
@@ -183,4 +183,33 @@ test('getNextEpisodes - should return shows matching keyword', async t => {
                 });
             });
     });
+});
+
+test('getBookmarkFile - should return file name', async t => {
+  t.true(utils.getBookmarkFile().includes('tvst-fav.json'));
+});
+
+
+test.serial('bookmarkShows - bookmark shows', async t => {
+  return utils.bookmarkShows([11964]).then(() => {
+    const fsp = require('fs-promise');
+    return fsp.readFile(utils.getBookmarkFile(), {encoding: 'utf8'})
+      .then(function(favoriteShows) {
+        t.true(favoriteShows.includes('11964'));
+        fsp.unlink(utils.getBookmarkFile())
+      });
+  });
+});
+
+test.serial('formatBookmarkedShows - format bookmarked shows and run callback', async t => {
+  return utils.bookmarkShows([82]).then(() => {
+    const fsp = require('fs-promise');
+    return utils
+      .formatBookmarkedShows()
+      .then((data) => {
+        t.true(data[0].id === 82);
+        t.true(data[0].name === 'Game of Thrones');
+        fsp.unlink(utils.getBookmarkFile());
+      })
+  });
 });

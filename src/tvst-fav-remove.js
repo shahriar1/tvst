@@ -16,7 +16,7 @@ var selectAndRemoveShows = showsResponse => {
   spinner.stop();
 
   let allShows = showsResponse.map(show => {
-    return {name: show.name, value: show.tvRageId};
+    return {name: show.name, value: show.id};
   });
 
   let showSelectionInput = {
