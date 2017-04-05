@@ -260,13 +260,22 @@ module.exports = {
   },
 
   /**
+   * get name of the bookmarkfile with full path
+   *
+   * @returns {string}
+   */
+  getBookmarkFile: function() {
+    return __dirname + path.sep + 'tvst-fav.json';
+  },
+
+  /**
    * bookmark a shows
    *
    * @param {Array} newShows
    * @param {Boolean} override
    */
   bookmarkShows: function(newShows, override = false) {
-    const bookmarkFileName = __dirname + path.sep + 'fav.json';
+    const bookmarkFileName = this.getBookmarkFile();
     fs.readFile(bookmarkFileName, 'utf8', function(err, data) {
         let alreadyAddedShows = [];
         if (err || override) {
@@ -292,7 +301,7 @@ module.exports = {
    */
   formatBookmarkedShows: function(fn) {
     let _this = this;
-    const bookmarkFileName = __dirname + path.sep + 'fav.json';
+    const bookmarkFileName = _this.getBookmarkFile();
     fs.readFile(bookmarkFileName, 'utf8', function(err, data) {
       if (err) {
         fn([]);
