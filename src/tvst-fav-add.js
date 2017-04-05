@@ -1,9 +1,14 @@
+const program = require('commander');
 const ora = require('ora');
 const chalk = require('chalk');
 const utils = require('./utils');
 const templates = require('./templates');
 const inquirer = require('inquirer');
 const os = require('os');
+
+
+program
+  .parse(process.argv);
 
 const showNameInput = {
   type: 'input',

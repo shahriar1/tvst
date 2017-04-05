@@ -1,3 +1,4 @@
+const program = require('commander');
 const ora = require('ora');
 const chalk = require('chalk');
 const utils = require('./utils');
@@ -5,6 +6,9 @@ const templates = require('./templates');
 const inquirer = require('inquirer');
 const _ = require('lodash');
 const os = require('os');
+
+program
+  .parse(process.argv);
 
 const spinner = ora('Wait for it...').start();
 
