@@ -16,46 +16,46 @@ var countryShort = 'US';
 var filter = '';
 
 program
-    .option('-c --country <country>', 'ISO country code - eg. US or GB etc.')
-    .option('-f --filter <filter>', 'Filter by show name')
-    .action((day = 'today') => {
+  .option('-c --country <country>', 'ISO country code - eg. US or GB etc.')
+  .option('-f --filter <filter>', 'Filter by show name')
+  .action((day = 'today') => {
 
-        let parsedDate = new Date(day);
+    let parsedDate = new Date(day);
 
-        //if not a valid date check if day is day of the week (e.g. today, yesterday, tomorrow etc.)
-        if (isNaN(parsedDate.getTime())) {
-            parsedDate = datej(day);
-        }
+    //if not a valid date check if day is day of the week (e.g. today, yesterday, tomorrow etc.)
+    if (isNaN(parsedDate.getTime())) {
+      parsedDate = datej(day);
+    }
 
-        filter = program.filter;
-        countryShort = program.country || countryShort;
-        showDate = moment(parsedDate.getTime());
-    })
-    .parse(process.argv);
+    filter = program.filter;
+    countryShort = program.country || countryShort;
+    showDate = moment(parsedDate.getTime());
+  })
+  .parse(process.argv);
 
 
 const spinner = ora('Wait for it...').start();
 
 utils
-    .fetchShowsByDate(showDate, countryShort)
-    .then((response) => {
-        utils
-            .formatDailyShows(response)
-            .then(shows => {
-                spinner.stop();
-
-                if (filter) {
-                    shows = utils.dailyShowsFullTexSearch(shows, 'name', filter);
-                }
-
-                templates.dailyShowsList(shows, showDate);
-            })
-            .catch((e) => {
-                spinner.stop();
-                console.log(chalk.bold.red(_.startCase(e.message)));
-            });
-    })
-    .catch((err) => {
+  .fetchShowsByDate(showDate, countryShort)
+  .then((response) => {
+    utils
+      .formatDailyShows(response)
+      .then(shows => {
         spinner.stop();
-        console.log(chalk.bold.red(err.data.message));
-    });
+
+        if (filter) {
+          shows = utils.dailyShowsFullTexSearch(shows, 'name', filter);
+        }
+
+        templates.dailyShowsList(shows, showDate);
+      })
+      .catch((e) => {
+        spinner.stop();
+        console.log(chalk.bold.red(_.startCase(e.message)));
+      });
+  })
+  .catch((err) => {
+    spinner.stop();
+    console.log(chalk.bold.red(err.data.message));
+  });
