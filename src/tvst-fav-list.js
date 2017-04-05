@@ -11,11 +11,7 @@ program
 const spinner = ora('Wait for it...').start();
 
 var formatAndShowFavoriteShows = showsResponse => {
-  spinner.stop();
-
-  if (showsResponse.length < 1) {
-    console.log(chalk.yellow(`${os.EOL}You have no TV Shows added as your favorite shows! ${os.EOL}Try adding using the command ${chalk.green('tvst fav-add')}\n`));
-  }
+  
   const allShowsByEpisodeType = utils.formatShowsByEpisodeType(showsResponse);
   const allNextEpisodes = utils.getNextEpisodes(allShowsByEpisodeType);
   const allPreviousEpisodes = utils.getPreviousEpisodes(allShowsByEpisodeType);
@@ -42,6 +38,15 @@ var formatAndShowFavoriteShows = showsResponse => {
   });
 };
 
-utils.formatBookmarkedShows(formatAndShowFavoriteShows);
+utils
+  .formatBookmarkedShows()
+  .then((data) => {
+    spinner.stop();
+    formatAndShowFavoriteShows(data);
+  })
+  .catch(() => {
+    spinner.stop();
+    console.log(chalk.yellow(`${os.EOL}You have no TV Shows added as your favorite shows! ${os.EOL}Try adding using the command ${chalk.green('tvst fav-add')}\n`));
+  });
 
 

@@ -41,7 +41,13 @@ inquirer.prompt([showNameInput]).then(answer => {
         choices: showDetails
       };
       inquirer.prompt([showSelectionInput]).then(answer => {
-        utils.bookmarkShows(answer.favShows);
+        utils.bookmarkShows(answer.favShows)
+          .then(() => {
+            console.log(chalk.green(`${os.EOL}Added successfully as your favorite show!${os.EOL}`));
+          })
+          .catch(() => {
+            console.log(chalk.red(`${os.EOL}Error adding as your favoirte show!${os.EOL}`));
+          });
       });
     });
 });

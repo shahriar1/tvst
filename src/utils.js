@@ -3,6 +3,7 @@ const _ = require('lodash');
 const moment = require('moment-timezone');
 const path = require('path');
 const fs = require('fs');
+const fsp = require('fs-promise');
 
 require('fuzzyset.js');
 
@@ -276,22 +277,18 @@ module.exports = {
    */
   bookmarkShows: function(newShows, override = false) {
     const bookmarkFileName = this.getBookmarkFile();
-    fs.readFile(bookmarkFileName, 'utf8', function(err, data) {
-        let alreadyAddedShows = [];
-        if (err || override) {
-          alreadyAddedShows.favShows = [];
-        } else {
-          alreadyAddedShows = JSON.parse(data);
-        }
 
+    return fsp.readFile(bookmarkFileName, {encoding: 'utf8'})
+      .then((contents) => {
+
+        return override === true ? [] : JSON.parse(contents);
+      }).catch(() => {
+        return [];
+      })
+      .then((alreadyAddedShows) => {
         let shows = {favShows: _.union(alreadyAddedShows.favShows, newShows)};
-        fs.writeFile(bookmarkFileName, JSON.stringify(shows), function(err) {
-          if (err) {
-            console.log('Error bookmarking shows');
-          }
-        });
-      }
-    );
+        return fsp.writeFile(bookmarkFileName, JSON.stringify(shows));
+      });
   },
 
   /**
@@ -299,28 +296,25 @@ module.exports = {
    *
    * @param {Function} fn
    */
-  formatBookmarkedShows: function(fn) {
+  formatBookmarkedShows: function() {
     let _this = this;
     const bookmarkFileName = _this.getBookmarkFile();
-    fs.readFile(bookmarkFileName, 'utf8', function(err, data) {
-      if (err) {
-        fn([]);
-      } else {
 
-        let shows = JSON.parse(data);
+    return fsp.readFile(bookmarkFileName, {encoding: 'utf8'})
+      .then((contents) => {
+        return JSON.parse(contents);
+      })
+      .then((shows) => {
         let allShows = shows.favShows.map(showId => {
           let showUrl = `http://api.tvmaze.com/shows/${showId.toString()}`;
           return _this.fetch(showUrl);
         });
-
         return Promise.all(allShows).then(function(response) {
-          let allShows = response.map((episodeResponse, index) => {
+          let bookMarkedShows = response.map((episodeResponse, index) => {
             return _this.formatShow(episodeResponse.data);
           });
-
-          fn(allShows);
+          return Promise.resolve(bookMarkedShows);
         });
-      }
-    });
+      });
   }
 };

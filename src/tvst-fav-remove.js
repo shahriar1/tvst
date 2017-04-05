@@ -15,11 +15,6 @@ const spinner = ora('Wait for it...').start();
 var selectAndRemoveShows = showsResponse => {
   spinner.stop();
 
-  if (showsResponse.length < 1) {
-    console.log(chalk.yellow(`${os.EOL}You have no TV Shows added as your favorite shows! ${os.EOL}Try adding using the command ${chalk.green('tvst fav-add')}${os.EOL}`));
-    return;
-  }
-
   let allShows = showsResponse.map(show => {
     return {name: show.name, value: show.tvRageId};
   });
@@ -35,8 +30,23 @@ var selectAndRemoveShows = showsResponse => {
     let newFavoriteShows = allShows.filter(show => {
       return !answer.favShows.includes(show.value);
     });
-    utils.bookmarkShows(_.map(newFavoriteShows, 'value'), true);
+    utils.bookmarkShows(_.map(newFavoriteShows, 'value'), true)
+      .then(() => {
+        console.log(chalk.yellow(`${os.EOL}Removed successfully from your favorite shows!${os.EOL}`));
+      })
+      .catch(() => {
+        console.log(chalk.red(`${os.EOL}Error removing from your favoirte shows!${os.EOL}`));
+      });
   });
 };
 
-utils.formatBookmarkedShows(selectAndRemoveShows);
+utils
+  .formatBookmarkedShows()
+  .then((shows) => {
+    spinner.stop();
+    selectAndRemoveShows(shows);
+  })
+  .catch(() => {
+    spinner.stop();
+    console.log(chalk.yellow(`${os.EOL}You have no TV Shows added as your favorite shows! ${os.EOL}Try adding using the command ${chalk.green('tvst fav-add')}${os.EOL}`));
+  });
