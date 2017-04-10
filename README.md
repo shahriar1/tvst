@@ -5,9 +5,7 @@
 ![TVST command line](tvst.gif)
 
 
-Table of contents
-=================
-
+## Table of contents
   * [Install](#install)
   * [Upgrade](#upgrade)
   * [Usage](#usage)
@@ -36,14 +34,20 @@ Table of contents
   * [License](#license)
 
 
-### Install
+## Install <a name="install"></a>
 
-```
+Install with [npm](https://www.npmjs.com/):
+
+```bash
 npm install -g tvst
 ```
+## Upgrade <a name="upgrade"></a>
 
+```bash
+npm update -g tvst
+```
 
-### Usage
+### Usage <a name="usage"></a>
 
 ```
 
@@ -55,6 +59,9 @@ npm install -g tvst
     schedule <date>  Show list of TV shows of a specific date
     ne <show-name>   Date & Air time of next episode of a show
     pe <show-name>   Date & Air time of previous episode of a show
+    fav-add          Add TV shows in your favorite list
+    fav-list         Show list of your favorite shows
+    fav-remove       Remove show(s) from your favorite shows
     help [cmd]       display help for [cmd]
 
   TV Shows Tracker (TVST) On Command Line - For Developers
