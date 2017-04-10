@@ -24,7 +24,7 @@ inquirer.prompt([showNameInput]).then(answer => {
     .fetchShowsByKeyword(showName)
     .then(showsResponse => {
       showsResponse.forEach(show => {
-        showDetails.push({value: show.id, name: show.name});
+        showDetails.push({value: show.id, name: `${show.name} (${chalk.dim(`${show.network}`)})` });
       });
       return showDetails;
     })
