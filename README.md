@@ -5,6 +5,37 @@
 ![TVST command line](tvst.gif)
 
 
+Table of contents
+=================
+
+  * [Install](#install)
+  * [Upgrade](#upgrade)
+  * [Usage](#usage)
+    * [Schedule](#schedule)
+      * [Examples](#schedule-examples)
+        * [See all shows of today](#see-all-shows-of-today)
+        * [See all shows of tomorrow](#see-all-shows-of-tomorrow)
+        * [See all shows of yesterday](#see-all-shows-of-yesterday)
+        * [See all shows of a particular date](#see-all-shows-of-a-particular-date)
+        * [See if tomorrow has a episode of a particular tv show](#see-if-a-tomorrow-has-episode-of-a-particular-tv-show)
+        * [See today's schedule of a particular country](#see-todays-schedule-of-a-particular-country)
+    * [Next Episode](#next-episode)
+      * [Examples](#next-episode-examples)
+        * [See next episode's details of a particular show](#see-next-episode-details-of-a-particular-show)
+    * [Previous Episode](#previous-episode)
+      * [Examples](#previous-episode-examples)
+        * [See previous episode's details of a particular show](#see-previous-episode-details-of-a-particular-show)
+    * [Favorite Shows](#favorite-shows)
+      * [Examples](#favroite-shows-examples)
+        * [Add show(s) as your favorite](#add-shows-as-your-favorite)
+        * [Remove show(s) from your favorite](#remove-shows-from-your-favorite)
+        * [See schedules of all of your favorite shows](#get-schedule-of-all-of-your-favorite-shows)
+    * [Help](#help)
+    * [Version](#version)
+  * [Credits](#credits)
+  * [License](#license)
+
+
 ### Install
 
 ```
