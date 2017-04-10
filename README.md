@@ -25,14 +25,16 @@
         * [See previous episode's details of a particular show](#previous-episode-examples-details)
     * [Favorite Shows](#favorite-shows)
       * [Examples](#favroite-shows-examples)
-        * [Add show(s) as your favorite](#add-shows-as-your-favorite)
-        * [Remove show(s) from your favorite](#remove-shows-from-your-favorite)
-        * [See schedules of all of your favorite shows](#get-schedule-of-all-of-your-favorite-shows)
+        * [Add show(s) as your favorite](#favorite-shows-add)
+        * [Remove show(s) from your favorite](#favorite-shows-remove)
+        * [See schedules of all of your favorite shows](#favorite-shows-schedule)
     * [Help](#help)
     * [Version](#version)
   * [Credits](#credits)
   * [License](#license)
 
+
+## :punch: More awesome features are in development :punch:
 
 ## Install <a name="install"></a>
 
@@ -95,32 +97,32 @@ $ tvst schedule --help
 
 #### Examples:<a name="schedule-examples"></a>
 
-- See all shows of today <a name="schedule-examples-today"></a> :
+- See all shows of today: <a name="schedule-examples-today"></a>
 ```bash
 tvst schedule today
 ```
 
-- See all shows of tomorrow <a name="schedule-examples-tomorrow"></a> :
+- See all shows of tomorrow: <a name="schedule-examples-tomorrow"></a>
 ```bash
 tvst schedule tomorrow
 ```
 
-- See all shows of yesterday <a name="schedule-examples-yesterday"></a> :
+- See all shows of yesterday: <a name="schedule-examples-yesterday"></a>
 ```bash
 tvst schedule yesterday
 ```
 
-- See all shows of a particular date <a name="schedule-examples-by-date"></a> :
+- See all shows of a particular date: <a name="schedule-examples-by-date"></a>
 ```bash
 tvst schedule '2016-06-14'
 ```
 
-- See if tomorrow has a episode of a particular tv show <a name="schedule-examples-tomorow-particular"></a> :
+- See if tomorrow has a episode of a particular tv show: <a name="schedule-examples-tomorow-particular"></a>
 ```bash
 tvst schedule tomorrow -f 'game of thrones'
 ```
 
-- See today's schedule of a particular country <a name="schedule-examples-country"></a> :
+- See today's schedule of a particular country: <a name="schedule-examples-country"></a>
 ```bash
 tvst schedule today -c GB
 ```
@@ -151,25 +153,49 @@ tvst ne 'game of thrones'
 tvst pe <show-name>
 ```
 
-#### Examples
+#### Examples  <a name="previous-episode-examples"></a>
 
-See previous episode's details of a particular show: <a name="previous-episode-examples-details"></a>
+- See previous episode's details of a particular show: <a name="previous-episode-examples-details"></a>
 ```bash
 tvst pe 'game of thrones'
 ```
 
 :notebook_with_decorative_cover: If you're not sure about spelling of a specific show name, just guess, it will return list of possible shows
 
-####
+### Favorite shows - `fav-add` `fav-remove` `fav-list` <a name="favorite-shows"></a>
+```bash
+tvst fav-add
+```
+```bash
+tvst fav-remove
+```
+```bash
+tvst fav-list
+```
 
+#### Examples <a name="favorite-shows-examples"></a>
+- Add show(s) to your favorite: <a name="favorite-shows-add"></a>
+```bash
+tvst fav-add
+```
+:notebook_with_decorative_cover: It is an interactive command - just follow the instruction.
 
+- Remove show(s) from your favorite: <a name="favorite-shows-remove"></a>
+```bash
+tvst fav-remove
+```
+:notebook_with_decorative_cover: It is an interactive command - just follow the instruction.
 
-:punch: More awesome features are in development :punch:
+- See schedules of all of your favorite shows: <a name="favorite-shows-schedule"></a>
+```bash
+tvst fav-list
+```
+
+:notebook_with_decorative_cover: If you're not sure about spelling of a specific show name, just guess, it will return list of possible shows
 
 
 ## Credits
 ###### [TVMaze API](http://tvmaze.com/api)
-
 
 
 ## License
