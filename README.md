@@ -11,12 +11,12 @@
   * [Usage](#usage)
     * [Schedule](#schedule)
       * [Examples](#schedule-examples)
-        * [See all shows of today](#see-all-shows-of-today)
-        * [See all shows of tomorrow](#see-all-shows-of-tomorrow)
-        * [See all shows of yesterday](#see-all-shows-of-yesterday)
-        * [See all shows of a particular date](#see-all-shows-of-a-particular-date)
-        * [See if tomorrow has a episode of a particular tv show](#see-if-a-tomorrow-has-episode-of-a-particular-tv-show)
-        * [See today's schedule of a particular country](#see-todays-schedule-of-a-particular-country)
+        * [See all shows of today](#schedule-today)
+        * [See all shows of tomorrow](#schedule-tomorrow)
+        * [See all shows of yesterday](#schedule-yesterday)
+        * [See all shows of a particular date](#schedule-by-date)
+        * [See if tomorrow has a episode of a particular tv show](#schedule-tomorow-particular)
+        * [See today's schedule of a particular country](#schedule-country)
     * [Next Episode](#next-episode)
       * [Examples](#next-episode-examples)
         * [See next episode's details of a particular show](#see-next-episode-details-of-a-particular-show)
@@ -47,7 +47,7 @@ npm install -g tvst
 npm update -g tvst
 ```
 
-### Usage <a name="usage"></a>
+## Usage <a name="usage"></a>
 
 ```
 
@@ -74,12 +74,12 @@ npm update -g tvst
 ```   
 
 
-## Schedule
+### Schedule - `schedule` <a name="schedule"></a>
 ```
 tvst schedule <date>
 ```
 
-#### Usage
+#### Usage of schedule
 
 ```
 $ tvst schedule --help
@@ -93,21 +93,37 @@ $ tvst schedule --help
     -f --filter <filter>    Filter By Show Name
 ```
 
-#### Example:
+#### Examples:<a name="schedule-examples"></a>
 
-Get today's schedule - `tvst schedule today`
+See all shows of today <a name="schedule-today"></a> :
+```bash
+tvst schedule today
+```
 
-Get yesterday's schedule - `tvst schedule yesterday`
+See all shows of tomorrow <a name="schedule-tomorrow"></a> :
+```bash
+tvst schedule tomorrow
+```
 
-Get tomorrow's schedule - `tvst schedule tomorrow`
+See all shows of yesterday <a name="schedule-yesterday"></a> :
+```bash
+tvst schedule yesterday
+```
 
-Get a specific dates schedule - `tvst schedule '2016-06-14'`
+See all shows of a particular date <a name="schedule-by-date"></a> :
+```bash
+tvst schedule '2016-06-14'
+```
 
-See if tomorrow has episode of Game Of Thrones - `tvst schedule tomorrow -f 'game of thrones'`
+See if tomorrow has a episode of a particular tv show <a name="schedule-tomorow-particular"></a> :
+```bash
+tvst schedule tomorrow -f 'game of thrones'
+```
 
-Get today's schedule of a country - `tvst schedule today -c GB`
-
-
+See today's schedule of a particular country <a name="schedule-country"></a> :
+```bash
+tvst schedule today -c GB
+```
 
 
 ## Next Episode - ne
