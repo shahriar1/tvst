@@ -11,18 +11,18 @@
   * [Usage](#usage)
     * [Schedule](#schedule)
       * [Examples](#schedule-examples)
-        * [See all shows of today](#schedule-today)
-        * [See all shows of tomorrow](#schedule-tomorrow)
-        * [See all shows of yesterday](#schedule-yesterday)
-        * [See all shows of a particular date](#schedule-by-date)
-        * [See if tomorrow has a episode of a particular tv show](#schedule-tomorow-particular)
-        * [See today's schedule of a particular country](#schedule-country)
+        * [See all shows of today](#schedule-examples-today)
+        * [See all shows of tomorrow](#schedule-examples-tomorrow)
+        * [See all shows of yesterday](#schedule-examples-yesterday)
+        * [See all shows of a particular date](#schedule-examples-by-date)
+        * [See if tomorrow has a episode of a particular tv show](#schedule-examples-tomorow-particular)
+        * [See today's schedule of a particular country](#schedule-examples-country)
     * [Next Episode](#next-episode)
       * [Examples](#next-episode-examples)
-        * [See next episode's details of a particular show](#see-next-episode-details-of-a-particular-show)
+        * [See next episode's details of a particular show](#next-episode-examples-details)
     * [Previous Episode](#previous-episode)
       * [Examples](#previous-episode-examples)
-        * [See previous episode's details of a particular show](#see-previous-episode-details-of-a-particular-show)
+        * [See previous episode's details of a particular show](#previous-episode-examples-details)
     * [Favorite Shows](#favorite-shows)
       * [Examples](#favroite-shows-examples)
         * [Add show(s) as your favorite](#add-shows-as-your-favorite)
@@ -95,71 +95,76 @@ $ tvst schedule --help
 
 #### Examples:<a name="schedule-examples"></a>
 
-See all shows of today <a name="schedule-today"></a> :
+- See all shows of today <a name="schedule-examples-today"></a> :
 ```bash
 tvst schedule today
 ```
 
-See all shows of tomorrow <a name="schedule-tomorrow"></a> :
+- See all shows of tomorrow <a name="schedule-examples-tomorrow"></a> :
 ```bash
 tvst schedule tomorrow
 ```
 
-See all shows of yesterday <a name="schedule-yesterday"></a> :
+- See all shows of yesterday <a name="schedule-examples-yesterday"></a> :
 ```bash
 tvst schedule yesterday
 ```
 
-See all shows of a particular date <a name="schedule-by-date"></a> :
+- See all shows of a particular date <a name="schedule-examples-by-date"></a> :
 ```bash
 tvst schedule '2016-06-14'
 ```
 
-See if tomorrow has a episode of a particular tv show <a name="schedule-tomorow-particular"></a> :
+- See if tomorrow has a episode of a particular tv show <a name="schedule-examples-tomorow-particular"></a> :
 ```bash
 tvst schedule tomorrow -f 'game of thrones'
 ```
 
-See today's schedule of a particular country <a name="schedule-country"></a> :
+- See today's schedule of a particular country <a name="schedule-examples-country"></a> :
 ```bash
 tvst schedule today -c GB
 ```
 
 
-## Next Episode - ne
+### Next Episode - `ne` <a name="next-episode"></a>
 ```
 tvst ne <show-name>
 ```
 
-#### Example
+#### Examples <a name="next-episode-examples"></a>
 
-Get next episode schedule with details of a specific show - `tvst ne 'game of thrones'`
-
-###### If you're not sure about spelling of a specific show name, just guess, it will return list of possible shows
-
-
-###### If any show has no update of next episode then it returns details of previous episode
-
-
-
-## Previous episode - pe
-
-
+- See next episode's details of a particular show: <a name="next-episode-examples-details"></a>
+```bash
+tvst ne 'game of thrones'
 ```
+
+:notebook_with_decorative_cover: If you're not sure about spelling of a specific show name, just guess, it will return list of possible shows
+
+
+:notebook_with_decorative_cover: If any show has no update of next episode then it returns details of previous episode
+
+
+### Previous episode - `pe` <a name="previous-episode"></a>
+
+
+```bash
 tvst pe <show-name>
 ```
 
-#### Example
+#### Examples
 
-Get next episode schedule with details of a specific show - `tvst pe 'game of thrones'`
+See previous episode's details of a particular show: <a name="previous-episode-examples-details"></a>
+```bash
+tvst pe 'game of thrones'
+```
 
-###### If you're not sure about spelling of a specific show name, just guess, it will return list of possible shows
+:notebook_with_decorative_cover: If you're not sure about spelling of a specific show name, just guess, it will return list of possible shows
 
 ####
 
 
 
-### _More awesome features are in development_ :smile:
+:punch: More awesome features are in development :punch:
 
 
 ## Credits
