@@ -193,6 +193,16 @@ tvst fav-list
 
 :notebook_with_decorative_cover: If you're not sure about spelling of a specific show name, just guess, it will return list of possible shows
 
+### Help <a name="help"></a>
+```bash
+tvst help
+```
+
+### Version <a name="version"></a>
+```bash
+tvst --version
+```
+
 
 ## Credits
 ###### [TVMaze API](http://tvmaze.com/api)
