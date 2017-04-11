@@ -95,8 +95,8 @@ $ tvst schedule --help
     -f --filter <filter>    Filter By Show Name
 ```
 
-<a name="schedule-examples"></a>
-#### Examples:
+
+#### Examples: <a name="schedule-examples"></a>
 
 - See all shows of today: <a name="schedule-examples-today"></a>
 ```bash
