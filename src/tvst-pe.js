@@ -37,18 +37,22 @@ utils
 
     allPreviousEpisodes.then((episodes) => {
 
-      if (episodes.length < 1) {
-        console.log('');
-        console.log(chalk.yellow(`Couldn't find any info of previous episode of show(s) matching '${showName}'`));
-      }
+        if (episodes.length < 1) {
+          console.log('');
+          console.log(chalk.yellow(`Couldn't find any info of previous episode of show(s) matching '${showName}'`));
+        }
 
-      episodes.forEach(episode => {
-        let message = chalk.green.bold(episode.show.name);
-        templates.previousEpisode(episode, message);
+        episodes.forEach(episode => {
+          let message = chalk.green.bold(episode.show.name);
+          templates.previousEpisode(episode, message);
+        });
+      })
+      .catch(e => {
+        spinner.stop();
+        templates.showConnectionError();
       });
-    });
   })
-  .catch(e => {
+  .catch(() => {
     spinner.stop();
-    console.log(chalk.bold.red(e.message));
+    templates.showConnectionError();
   });
