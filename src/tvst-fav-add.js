@@ -30,6 +30,7 @@ inquirer.prompt([showNameInput]).then(answer => {
     })
     .then(showDetails => {
       if (showDetails.length < 1) {
+        spinner.stop();
         console.log(chalk.red(`${os.EOL}Couldn't find any TV shows matching '${showName}'${os.EOL}`));
         return;
       }
