@@ -36,13 +36,13 @@
     "lodash": "^4.13.1",
     "moment": "^2.13.0",
     "moment-timezone": "^0.5.4",
+    "fs-promise": "^2.0.2",
     "ora": "^0.2.3"
   },
   "devDependencies": {
     "ava": "^0.15.2",
     "babel-cli": "^6.10.1",
     "execa": "^0.4.0",
-    "fs-promise": "^2.0.2",
     "jshint": "^2.9.2",
     "rimraf": "^2.6.1"
   },
