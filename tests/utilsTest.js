@@ -186,17 +186,17 @@ test('getNextEpisodes - should return shows matching keyword', async t => {
 });
 
 test('getBookmarkFile - should return file name', async t => {
-  t.true(utils.getBookmarkFile().includes('tvst-fav.json'));
+  t.true(utils.getBookmarkFilePath().includes('tvst-fav.json'));
 });
 
 
 test.serial('bookmarkShows - bookmark shows', async t => {
   return utils.bookmarkShows([11964]).then(() => {
     const fsp = require('fs-promise');
-    return fsp.readFile(utils.getBookmarkFile(), {encoding: 'utf8'})
+    return fsp.readFile(utils.getBookmarkFilePath(), {encoding: 'utf8'})
       .then(function(favoriteShows) {
         t.true(favoriteShows.includes('11964'));
-        fsp.unlink(utils.getBookmarkFile())
+        fsp.unlink(utils.getBookmarkFilePath())
       });
   });
 });
@@ -209,7 +209,7 @@ test.serial('formatBookmarkedShows - format bookmarked shows and run callback', 
       .then((data) => {
         t.true(data[0].id === 82);
         t.true(data[0].name === 'Game of Thrones');
-        fsp.unlink(utils.getBookmarkFile());
+        fsp.unlink(utils.getBookmarkFilePath());
       })
   });
 });

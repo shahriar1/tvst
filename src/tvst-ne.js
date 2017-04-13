@@ -3,6 +3,7 @@ const ora = require('ora');
 const chalk = require('chalk');
 const utils = require('./utils');
 const templates = require('./templates');
+const os = require('os');
 
 
 var showName = '';
@@ -35,31 +36,41 @@ utils
     const allPreviousEpisodes = utils.getPreviousEpisodes(allShowsByEpisodeType);
 
     //get all next episodes
-    allNextEpisodes.then(episodes => {
+    allNextEpisodes
+      .then(episodes => {
 
-      if (episodes.length < 1) {
-        console.log('');
-        console.log(chalk.yellow(`Couldn't find any info of next episode of show(s) matching '${showName}'`));
-      }
-
-      episodes.forEach(episode => {
-        templates.nextEpisode(episode);
-      });
-
-      //in addition show all the matching shows of all previous episodes that has no next episode
-      allPreviousEpisodes.then(episodes => {
-        if (episodes.length > 0) {
+        if (episodes.length < 1) {
           console.log('');
-          console.log(chalk.red(`Show(s) matching '${showName}' that are either ended or have no update available yet!`));
-          episodes.forEach(episode => {
-            let message = chalk.grey.bold(episode.show.name);
-            templates.previousEpisode(episode, message);
-          });
+          console.log(chalk.yellow(`Couldn't find any info of next episode of show(s) matching '${showName}'`));
         }
+
+        episodes.forEach(episode => {
+          templates.nextEpisode(episode);
+        });
+
+        //in addition show all the matching shows of all previous episodes that has no next episode
+        allPreviousEpisodes
+          .then(episodes => {
+            if (episodes.length > 0) {
+              console.log('');
+              console.log(chalk.red(`Show(s) matching '${showName}' that are either ended or have no update available yet!`));
+              episodes.forEach(episode => {
+                let message = chalk.grey.bold(episode.show.name);
+                templates.previousEpisode(episode, message);
+              });
+            }
+          })
+          .catch(() => {
+            spinner.stop();
+            templates.showConnectionError();
+          });
+      })
+      .catch(() => {
+        spinner.stop();
+        templates.showConnectionError();
       });
-    });
   })
-  .catch(e => {
+  .catch(() => {
     spinner.stop();
-    console.log(chalk.bold.red(e.message));
+    templates.showConnectionError();
   });

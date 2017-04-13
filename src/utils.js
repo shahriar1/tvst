@@ -261,12 +261,30 @@ module.exports = {
   },
 
   /**
+   * get root directory of of the app
+   *
+   * @returns {string}
+   */
+  getAppRootDirectory: function() {
+    return __dirname + path.sep + '..' + path.sep;
+  },
+
+  /**
+   * get storage directory of of the app
+   *
+   * @returns {string}
+   */
+  getAppStorageDirectory: function() {
+    return this.getAppRootDirectory() + 'storage' + path.sep;
+  },
+
+  /**
    * get name of the bookmarkfile with full path
    *
    * @returns {string}
    */
-  getBookmarkFile: function() {
-    return __dirname + path.sep + 'tvst-fav.json';
+  getBookmarkFilePath: function() {
+    return this.getAppStorageDirectory() + 'tvst-fav.json';
   },
 
   /**
@@ -277,7 +295,7 @@ module.exports = {
    * @returns {Promise}
    */
   bookmarkShows: function(newShows, override = false) {
-    const bookmarkFileName = this.getBookmarkFile();
+    const bookmarkFileName = this.getBookmarkFilePath();
 
     return fsp.readFile(bookmarkFileName, {encoding: 'utf8'})
       .then((contents) => {
@@ -299,7 +317,7 @@ module.exports = {
    */
   formatBookmarkedShows: function() {
     let _this = this;
-    const bookmarkFileName = _this.getBookmarkFile();
+    const bookmarkFileName = _this.getBookmarkFilePath();
 
     return fsp.readFile(bookmarkFileName, {encoding: 'utf8'})
       .then((contents) => {

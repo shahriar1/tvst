@@ -50,12 +50,12 @@ utils
 
         templates.dailyShowsList(shows, showDate);
       })
-      .catch((e) => {
+      .catch(() => {
         spinner.stop();
-        console.log(chalk.bold.red(_.startCase(e.message)));
+        templates.showConnectionError();
       });
   })
-  .catch((err) => {
+  .catch(() => {
     spinner.stop();
-    console.log(chalk.bold.red(err.data.message));
+    templates.showConnectionError();
   });

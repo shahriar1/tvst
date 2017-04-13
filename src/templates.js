@@ -1,6 +1,7 @@
 const chalk = require('chalk');
 const Table = require('cli-table');
 const moment = require('moment-timezone');
+const os = require('os');
 
 module.exports = {
 
@@ -92,5 +93,15 @@ ${chalk.bold('Aired date:')} ${episode.timestamp.fromNow()}`;
    */
   noShowFound: function(keyWord) {
     console.log('\n' + chalk.red('No show found matching ') + chalk.grey.bold(keyWord) + '\n');
+  },
+
+  /**
+   * Error connecting to the internet
+   *
+   * @param {String} keyWord
+   */
+  showConnectionError: function() {
+    console.log(chalk.bold.red(`${os.EOL}Problem connecting to the internet! Please Check your internet connections!${os.EOL}`));
+    process.exit();
   }
 };
