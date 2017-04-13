@@ -3,7 +3,7 @@
 const program = require('commander');
 
 program
-  .version('0.2.0')
+  .version('0.2.1')
   .description('TV Shows Tracker (TVST) on command line');
 
 program
