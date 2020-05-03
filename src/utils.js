@@ -27,6 +27,7 @@ module.exports = {
    * @returns {axios.Promise}
    */
   fetchShowsByDate: function(momentDate, countryISO = 'US') {
+
     const requestString = 'http://api.tvmaze.com/schedule?country=' + countryISO + '&date=' + momentDate.tz('America/New_York').format('YYYY-MM-DD');
     return this.fetch(requestString);
   },
@@ -49,7 +50,7 @@ module.exports = {
       let allShows = [];
       responseData.forEach(show => {
 
-        let timeZone = show.show.network.country ? show.show.network.country.timezone : show.webChannel.country ? show.webChannel.country.timezone : 'America/New_York';
+        let timeZone = show.show.network ? (show.show.network.country ? show.show.network.country.timezone : show.webChannel.country ? show.webChannel.country.timezone : 'America/New_York') : 'America/New_York';
         let timeStamp = show.airstamp ? moment(show.airstamp) : '';
         //set default timezone
         moment.tz.setDefault(timeZone);
@@ -60,8 +61,8 @@ module.exports = {
           season: show.season ? show.season : '',
           episode: show.number ? show.number : '',
           premiered: show.show.premiered ? show.show.premiered : '',
-          network: show.show.network.name ? show.show.network.name : show.webChannel ? show.webChannel.name : '',
-          country: show.show.network.country ? show.show.network.country : show.show.webChannel.country ? show.show.webChannel.country : {},
+          network: show.show.network ? (show.show.network.name ? show.show.network.name : show.webChannel ? show.webChannel.name : '') : '',
+          country: show.show.network ? (show.show.network.country ? show.show.network.country : show.show.webChannel.country ? show.show.webChannel.country : {}) : {},
           timeZone: timeZone,
           timestamp: timeStamp,
           time: show.airtime ? moment(show.airtime, 'HH:mm') : timeStamp,
@@ -97,7 +98,7 @@ module.exports = {
    */
   dailyShowsFullTexSearch: function(shows, searchBy, value) {
 
-    //based on number of words we can set min score as a eligible show 
+    //based on number of words we can set min score as a eligible show
     const length = _.words(value).length;
     let minScore = 1;
 
@@ -312,7 +313,7 @@ module.exports = {
 
   /**
    * format bookmarked shows
-   * 
+   *
    * @returns {Promise}
    */
   formatBookmarkedShows: function() {
