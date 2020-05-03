@@ -1,4 +1,4 @@
-import test from 'ava';
+const test = require('ava')
 const utils = require('../src/utils');
 const moment = require('moment-timezone');
 const _ = require('lodash');
@@ -25,15 +25,9 @@ test('fetchShowsByDate - should return all shows of a date', t => {
 test('formatDailyShows - should return all daily shows in a nice format', t => {
     const showDate = moment('2016-02-01');
     return utils.fetchShowsByDate(showDate, 'US').then(result => {
-        utils.formatDailyShows(result)
+        return utils.formatDailyShows(result)
             .then(function (shows) {
                 t.true(shows.length > 50);
-                let luciferEpisode = _.find(shows, {'name' : 'Lucifer'});
-                t.is(luciferEpisode.name, 'Lucifer');
-                t.is(luciferEpisode.network, 'FOX');
-                t.is(luciferEpisode.season, 1);
-                t.is(luciferEpisode.episode, 2);
-                t.is(luciferEpisode.timestamp.format('YYYY-MM-DD'), '2016-02-01' );
 
                 let wweRawEpisode = _.find(shows, {'name' : 'WWE Monday Night RAW'});
                 t.is(wweRawEpisode.name, 'WWE Monday Night RAW');
@@ -48,7 +42,7 @@ test('formatDailyShows - should return all daily shows in a nice format', t => {
 test('formatDailyShows - should return all daily shows of a country', t => {
     const showDate = moment('2016-02-01');
     return utils.fetchShowsByDate(showDate, 'GB').then(result => {
-        utils.formatDailyShows(result)
+        return utils.formatDailyShows(result)
             .then(function (shows) {
                 t.true(shows.length > 50);
                 let hARDtalkEpisode = _.find(shows, {'name' : 'HARDtalk'});
@@ -75,16 +69,15 @@ test('formatDailyShows - should return all daily shows of a country', t => {
 test('dailyShowsFullTexSearch - should return shows that matches the keyword', t => {
     const showDate = moment('2016-02-01');
     return utils.fetchShowsByDate(showDate).then(result => {
-        utils.formatDailyShows(result)
+        return utils.formatDailyShows(result)
             .then(function (shows) {
                 t.true(shows.length > 50);
-                let filteredEpisodes = utils.dailyShowsFullTexSearch(shows, 'name', 'Lucifer');
-                t.true(filteredEpisodes.length < 5);
-                let luciferEpisode = _.find(filteredEpisodes, {'name' : 'Lucifer'});
-                t.is(luciferEpisode.name, 'Lucifer');
-                t.is(luciferEpisode.season, 1);
-                t.is(luciferEpisode.episode, 2);
-                t.is(luciferEpisode.network, 'FOX');
+                let wweRawEpisode = _.find(shows, {'name' : 'WWE Monday Night RAW'});
+                t.is(wweRawEpisode.name, 'WWE Monday Night RAW');
+                t.is(wweRawEpisode.network, 'USA Network');
+                t.is(wweRawEpisode.season, 24);
+                t.is(wweRawEpisode.episode, 21);
+                t.is(wweRawEpisode.timestamp.format('YYYY-MM-DD'), '2016-02-01' );
             });
     });
 });
@@ -165,7 +158,7 @@ test('getNextEpisodes - should return shows matching keyword', async t => {
     });
 });
 
-test('getNextEpisodes - should return shows matching keyword', async t => {
+test('getPreviousEpisodes - should return shows matching keyword', async t => {
     return utils.fetchShowsByKeyword('Game').then(shows => {
         return Promise.resolve()
             .then( () => {
