@@ -1,0 +1,4 @@
+{
+  "/search/shows?q=game of thrones": "search-game-of-thrones.json",
+  "/shows/82?embed[]=nextepisode&embed[]=previousepisode": "show-82-embedded.json"
+}
