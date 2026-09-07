@@ -3,6 +3,7 @@ import { Command, CommanderError } from 'commander';
 import pkg from '../package.json' with { type: 'json' };
 import { ApiError, NetworkError, NotFoundError } from './api/tvmaze.js';
 import { registerNext, registerPrev } from './commands/episodes.js';
+import { registerFav } from './commands/fav.js';
 import { registerInfo } from './commands/info.js';
 import { registerSchedule } from './commands/schedule.js';
 import { registerSearch } from './commands/search.js';
@@ -26,6 +27,7 @@ registerNext(program, pkg.version);
 registerPrev(program, pkg.version);
 registerSearch(program, pkg.version);
 registerInfo(program, pkg.version);
+registerFav(program, pkg.version);
 
 function reportError(error: unknown): ExitCodeValue {
   if (error instanceof CommanderError) {
