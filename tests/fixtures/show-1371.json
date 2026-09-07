@@ -1,0 +1,60 @@
+{
+  "id": 1371,
+  "url": "https://www.tvmaze.com/shows/1371/westworld",
+  "name": "Westworld",
+  "type": "Scripted",
+  "language": "English",
+  "genres": [
+    "Drama",
+    "Science-Fiction",
+    "Western"
+  ],
+  "status": "Ended",
+  "runtime": 60,
+  "averageRuntime": 63,
+  "premiered": "2016-10-02",
+  "ended": "2022-08-14",
+  "officialSite": "http://www.hbo.com/westworld",
+  "schedule": {
+    "time": "21:00",
+    "days": [
+      "Sunday"
+    ]
+  },
+  "rating": {
+    "average": 8.2
+  },
+  "weight": 99,
+  "network": {
+    "id": 8,
+    "name": "HBO",
+    "country": {
+      "name": "United States",
+      "code": "US",
+      "timezone": "America/New_York"
+    },
+    "officialSite": "https://www.hbo.com/"
+  },
+  "webChannel": null,
+  "dvdCountry": null,
+  "externals": {
+    "tvrage": 37537,
+    "thetvdb": 296762,
+    "imdb": "tt0475784"
+  },
+  "image": {
+    "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/445/1113927.jpg",
+    "original": "https://static.tvmaze.com/uploads/images/original_untouched/445/1113927.jpg"
+  },
+  "summary": "<p><b>Westworld</b> is a dark odyssey about the dawn of artificial consciousness and the evolution of sin. Set at the intersection of the near future and the reimagined past, it explores a world in which every human appetite, no matter how noble or depraved, can be indulged.</p>",
+  "updated": 1744667671,
+  "_links": {
+    "self": {
+      "href": "https://api.tvmaze.com/shows/1371"
+    },
+    "previousepisode": {
+      "href": "https://api.tvmaze.com/episodes/2326661",
+      "name": "Que Será, Será"
+    }
+  }
+}

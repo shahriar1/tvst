@@ -1,0 +1,91 @@
+{
+  "id": 1371,
+  "url": "https://www.tvmaze.com/shows/1371/westworld",
+  "name": "Westworld",
+  "type": "Scripted",
+  "language": "English",
+  "genres": [
+    "Drama",
+    "Science-Fiction",
+    "Western"
+  ],
+  "status": "In Development",
+  "runtime": 60,
+  "averageRuntime": 63,
+  "premiered": "2016-10-02",
+  "ended": null,
+  "officialSite": "http://www.hbo.com/westworld",
+  "schedule": {
+    "time": "21:00",
+    "days": [
+      "Sunday"
+    ]
+  },
+  "rating": {
+    "average": 8.2
+  },
+  "weight": 99,
+  "network": {
+    "id": 8,
+    "name": "HBO",
+    "country": {
+      "name": "United States",
+      "code": "US",
+      "timezone": "America/New_York"
+    },
+    "officialSite": "https://www.hbo.com/"
+  },
+  "webChannel": null,
+  "dvdCountry": null,
+  "externals": {
+    "tvrage": 37537,
+    "thetvdb": 296762,
+    "imdb": "tt0475784"
+  },
+  "image": {
+    "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/445/1113927.jpg",
+    "original": "https://static.tvmaze.com/uploads/images/original_untouched/445/1113927.jpg"
+  },
+  "summary": "<p><b>Westworld</b> is a dark odyssey about the dawn of artificial consciousness and the evolution of sin. Set at the intersection of the near future and the reimagined past, it explores a world in which every human appetite, no matter how noble or depraved, can be indulged.</p>",
+  "updated": 1744667671,
+  "_links": {
+    "self": {
+      "href": "https://api.tvmaze.com/shows/1371"
+    },
+    "nextepisode": {
+      "href": "https://api.tvmaze.com/episodes/911201",
+      "name": "The Original"
+    }
+  },
+  "_embedded": {
+    "nextepisode": {
+      "id": 911201,
+      "url": "https://www.tvmaze.com/episodes/911201/westworld-1x01-the-original",
+      "name": "The Original",
+      "season": 1,
+      "number": 1,
+      "type": "regular",
+      "airdate": "2016-10-02",
+      "airtime": "21:00",
+      "airstamp": "2016-10-03T01:00:00+00:00",
+      "runtime": 68,
+      "rating": {
+        "average": 7.4
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/418/1046925.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/418/1046925.jpg"
+      },
+      "summary": "<p>A woman named Dolores is a free spirit in a wild west world.</p>",
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/911201"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/1371",
+          "name": "Westworld"
+        }
+      }
+    }
+  }
+}
