@@ -1,0 +1,3704 @@
+[
+  {
+    "id": 885504,
+    "url": "https://www.tvmaze.com/episodes/885504/videokalendar-seasonvar-1x04-vypusk-04-2016-fevral",
+    "name": "Выпуск 04 _ 2016 Февраль",
+    "season": 1,
+    "number": 4,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "",
+    "airstamp": "2016-02-01T00:00:00+00:00",
+    "runtime": 7,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/885504"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/19785",
+        "name": "Видеокалендарь Seasonvar"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 19785,
+        "url": "https://www.tvmaze.com/shows/19785/videokalendar-seasonvar",
+        "name": "Видеокалендарь Seasonvar",
+        "type": "Talk Show",
+        "language": "Russian",
+        "genres": [],
+        "status": "Running",
+        "runtime": null,
+        "averageRuntime": 10,
+        "premiered": "2015-11-01",
+        "ended": null,
+        "officialSite": "http://seasonvar.ru/serial-12662-Videokalendar_-1-season.html",
+        "schedule": {
+          "time": "",
+          "days": []
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 66,
+        "network": null,
+        "webChannel": {
+          "id": 56,
+          "name": "Seasonvar",
+          "country": {
+            "name": "Russian Federation",
+            "code": "RU",
+            "timezone": "Asia/Kamchatka"
+          },
+          "officialSite": null
+        },
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": null,
+          "imdb": null
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/69/174618.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/69/174618.jpg"
+        },
+        "summary": null,
+        "updated": 1753971810,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/19785"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/3318276",
+            "name": "Выпуск 117 2025 Август"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 1432096,
+    "url": "https://www.tvmaze.com/episodes/1432096/my-knk-television-1x07-ep-7",
+    "name": "Ep. 7",
+    "season": 1,
+    "number": 7,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "",
+    "airstamp": "2016-02-01T03:00:00+00:00",
+    "runtime": 3,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/1432096"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/24182",
+        "name": "My KNK Television"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 24182,
+        "url": "https://www.tvmaze.com/shows/24182/my-knk-television",
+        "name": "My KNK Television",
+        "type": "Reality",
+        "language": "Korean",
+        "genres": [],
+        "status": "Ended",
+        "runtime": 10,
+        "averageRuntime": 11,
+        "premiered": "2016-01-28",
+        "ended": "2018-03-14",
+        "officialSite": "https://tv.naver.com/search?query=%EB%A7%88%EC%9D%B4%20%ED%81%AC%EB%82%98%ED%81%B0%20%ED%85%94%EB%A0%88%EB%B9%84%EC%A0%84&page=1",
+        "schedule": {
+          "time": "",
+          "days": [
+            "Wednesday"
+          ]
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 11,
+        "network": null,
+        "webChannel": {
+          "id": 30,
+          "name": "Naver TV",
+          "country": {
+            "name": "Korea, Republic of",
+            "code": "KR",
+            "timezone": "Asia/Seoul"
+          },
+          "officialSite": "https://tv.naver.com/"
+        },
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": null,
+          "imdb": null
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/287/717807.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/287/717807.jpg"
+        },
+        "summary": null,
+        "updated": 1607335794,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/24182"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/1432762",
+            "name": "Ep. 34"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 2243591,
+    "url": "https://www.tvmaze.com/episodes/2243591/the-legend-of-xiao-zhuang-1x80-episode-80",
+    "name": "Episode 80",
+    "season": 1,
+    "number": 80,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "",
+    "airstamp": "2016-02-01T04:00:00+00:00",
+    "runtime": null,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/2243591"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/59689",
+        "name": "The Legend of Xiao Zhuang"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 59689,
+        "url": "https://www.tvmaze.com/shows/59689/the-legend-of-xiao-zhuang",
+        "name": "The Legend of Xiao Zhuang",
+        "type": "Scripted",
+        "language": "Chinese",
+        "genres": [
+          "Drama",
+          "History"
+        ],
+        "status": "Ended",
+        "runtime": null,
+        "averageRuntime": null,
+        "premiered": "2015-11-14",
+        "ended": "2016-02-02",
+        "officialSite": "https://weibo.com/u/5229882840",
+        "schedule": {
+          "time": "",
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ]
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 19,
+        "network": null,
+        "webChannel": {
+          "id": 86,
+          "name": "Weibo",
+          "country": {
+            "name": "China",
+            "code": "CN",
+            "timezone": "Asia/Shanghai"
+          },
+          "officialSite": null
+        },
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": 346155,
+          "imdb": "tt7527996"
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/386/965205.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/386/965205.jpg"
+        },
+        "summary": null,
+        "updated": 1640591259,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/59689"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/2243592",
+            "name": "Episode 81"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 579692,
+    "url": "https://www.tvmaze.com/episodes/579692/lorraine-6x21-01022016",
+    "name": "01/02/2016",
+    "season": 6,
+    "number": 21,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "08:30",
+    "airstamp": "2016-02-01T08:30:00+00:00",
+    "runtime": 55,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": "<p>A topical magazine show hosted by Lorraine Kelly with fashion, food and celebrity chat.</p>",
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/579692"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/8539",
+        "name": "Lorraine"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 8539,
+        "url": "https://www.tvmaze.com/shows/8539/lorraine",
+        "name": "Lorraine",
+        "type": "Talk Show",
+        "language": "English",
+        "genres": [],
+        "status": "Running",
+        "runtime": 30,
+        "averageRuntime": 57,
+        "premiered": "2010-09-06",
+        "ended": null,
+        "officialSite": "http://www.itv.com/lorraine",
+        "schedule": {
+          "time": "09:30",
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ]
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 75,
+        "network": {
+          "id": 35,
+          "name": "ITV1",
+          "country": {
+            "name": "United Kingdom",
+            "code": "GB",
+            "timezone": "Europe/London"
+          },
+          "officialSite": "https://www.itv.com/"
+        },
+        "webChannel": null,
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": 299999,
+          "imdb": null
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/456/1142092.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/456/1142092.jpg"
+        },
+        "summary": "<p>Lorraine Kelly presents a topical mix of entertainment, discussion and showbiz glamour as well as the latest fashion, food and celebrity gossip.</p>",
+        "updated": 1779783387,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/8539"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/3625363",
+            "name": "Episode 75"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 579702,
+    "url": "https://www.tvmaze.com/episodes/579702/this-morning-28x21-01022016",
+    "name": "01/02/2016",
+    "season": 28,
+    "number": 21,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "10:30",
+    "airstamp": "2016-02-01T10:30:00+00:00",
+    "runtime": 120,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": "<p>Live magazine programme with current event features, celebrity interviews, recipes and more.</p>",
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/579702"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/8074",
+        "name": "This Morning"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 8074,
+        "url": "https://www.tvmaze.com/shows/8074/this-morning",
+        "name": "This Morning",
+        "type": "Talk Show",
+        "language": "English",
+        "genres": [],
+        "status": "Running",
+        "runtime": null,
+        "averageRuntime": 137,
+        "premiered": "1988-10-03",
+        "ended": null,
+        "officialSite": "http://www.itv.com/thismorning",
+        "schedule": {
+          "time": "10:00",
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ]
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 82,
+        "network": {
+          "id": 35,
+          "name": "ITV1",
+          "country": {
+            "name": "United Kingdom",
+            "code": "GB",
+            "timezone": "Europe/London"
+          },
+          "officialSite": "https://www.itv.com/"
+        },
+        "webChannel": null,
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": 70970,
+          "imdb": null
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/513/1284751.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/513/1284751.jpg"
+        },
+        "summary": "<p>A long-running daytime magazine show co-hosted by two presenters live on weekdays since 1988. Features news and topical items, celebrity guests, expert advice, real life stories, competitions and a mix of cookery, health, beauty, lifestyle and more.</p>",
+        "updated": 1780183732,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/8074"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/3630586",
+            "name": "Episode 130"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 3374007,
+    "url": "https://www.tvmaze.com/episodes/3374007/fanzone-4x82-teen-titans-on-dit-adieu-au-petit-ecran",
+    "name": "Teen Titans : on dit adieu au petit écran...",
+    "season": 4,
+    "number": 82,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "",
+    "airstamp": "2016-02-01T11:00:00+00:00",
+    "runtime": null,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/3374007"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/44180",
+        "name": "FanZone"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 44180,
+        "url": "https://www.tvmaze.com/shows/44180/fanzone",
+        "name": "FanZone",
+        "type": "Variety",
+        "language": "French",
+        "genres": [],
+        "status": "Running",
+        "runtime": null,
+        "averageRuntime": 4,
+        "premiered": "2012-08-01",
+        "ended": null,
+        "officialSite": null,
+        "schedule": {
+          "time": "",
+          "days": []
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 17,
+        "network": null,
+        "webChannel": {
+          "id": 361,
+          "name": "Allociné",
+          "country": {
+            "name": "France",
+            "code": "FR",
+            "timezone": "Europe/Paris"
+          },
+          "officialSite": null
+        },
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": 262658,
+          "imdb": "tt3627346"
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/213/534090.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/213/534090.jpg"
+        },
+        "summary": null,
+        "updated": 1758572627,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/44180"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/3374365",
+            "name": "925 - Mission Impossible : 7 anecdotes folles sur les cascades de la saga ?"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 1830033,
+    "url": "https://www.tvmaze.com/episodes/1830033/flippklipp-2016-02-01-minecraft-starwars-ringenes-herre-vignett-bakom-film",
+    "name": "MINECRAFT + STARWARS + RINGENES HERRE = Vignett? (bakom film)",
+    "season": 2016,
+    "number": 23,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "",
+    "airstamp": "2016-02-01T11:00:00+00:00",
+    "runtime": 2,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/1830033"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/47000",
+        "name": "FlippKlipp"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 47000,
+        "url": "https://www.tvmaze.com/shows/47000/flippklipp",
+        "name": "FlippKlipp",
+        "type": "Variety",
+        "language": "Norwegian",
+        "genres": [
+          "Comedy",
+          "Children"
+        ],
+        "status": "Running",
+        "runtime": 15,
+        "averageRuntime": 24,
+        "premiered": "2015-10-07",
+        "ended": null,
+        "officialSite": "https://tv.nrk.no/serie/flippklipp",
+        "schedule": {
+          "time": "",
+          "days": [
+            "Wednesday",
+            "Friday"
+          ]
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 17,
+        "network": null,
+        "webChannel": {
+          "id": 238,
+          "name": "NRK TV",
+          "country": {
+            "name": "Norway",
+            "code": "NO",
+            "timezone": "Europe/Oslo"
+          },
+          "officialSite": "https://tv.nrk.no"
+        },
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": null,
+          "imdb": null
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/249/623432.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/249/623432.jpg"
+        },
+        "summary": "<p><b>FlippKlipp</b> is a web series on YouTube and NRK. Hosted by Victor Sotberg, the project started in 2015 and has quickly become one of the biggest influencer-duos in Norway.</p>",
+        "updated": 1605355160,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/47000"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/1909301",
+            "name": "VI FORTSETTER EVENTYRET I MINECRAFT - LIVESTEAM"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 2851605,
+    "url": "https://www.tvmaze.com/episodes/2851605/kjaere-mamma-2x17-episode-17",
+    "name": "Episode 17",
+    "season": 2,
+    "number": 17,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "",
+    "airstamp": "2016-02-01T11:00:00+00:00",
+    "runtime": 22,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/2851605"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/76698",
+        "name": "Kjære mamma"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 76698,
+        "url": "https://www.tvmaze.com/shows/76698/kjaere-mamma",
+        "name": "Kjære mamma",
+        "type": "Documentary",
+        "language": "Norwegian",
+        "genres": [],
+        "status": "Ended",
+        "runtime": null,
+        "averageRuntime": 22,
+        "premiered": "2015-11-02",
+        "ended": "2017-05-18",
+        "officialSite": "https://play.tv2.no/programmer/underholdning/kjaere-mamma",
+        "schedule": {
+          "time": "",
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+          ]
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 0,
+        "network": null,
+        "webChannel": {
+          "id": 327,
+          "name": "TV 2 Play",
+          "country": {
+            "name": "Norway",
+            "code": "NO",
+            "timezone": "Europe/Oslo"
+          },
+          "officialSite": null
+        },
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": null,
+          "imdb": null
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/517/1294575.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/517/1294575.jpg"
+        },
+        "summary": "<p>We follow mums of different ages and get to take part in their small and big challenges in everyday life. A steady stream of other mothers comment and share experiences. \"<b>Kjære mamma</b>\" is an expert-free, feel-good series about what it really means to be a mother today.</p>",
+        "updated": 1714952945,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/76698"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/2851649",
+            "name": "Episode 20"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 3049275,
+    "url": "https://www.tvmaze.com/episodes/3049275/das-duell-um-die-geld-1x01-amani-kloss-sascha-tschirner",
+    "name": "Amani, Kloß, Sascha, Tschirner",
+    "season": 1,
+    "number": 1,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "",
+    "airstamp": "2016-02-01T11:00:00+00:00",
+    "runtime": 91,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/3049275"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/79813",
+        "name": "Das Duell um die Geld"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 79813,
+        "url": "https://www.tvmaze.com/shows/79813/das-duell-um-die-geld",
+        "name": "Das Duell um die Geld",
+        "type": "Game Show",
+        "language": "German",
+        "genres": [],
+        "status": "Running",
+        "runtime": null,
+        "averageRuntime": 96,
+        "premiered": "2016-02-01",
+        "ended": null,
+        "officialSite": "https://www.joyn.de/serien/das-duell-um-die-geld",
+        "schedule": {
+          "time": "",
+          "days": [
+            "Monday"
+          ]
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 17,
+        "network": null,
+        "webChannel": {
+          "id": 356,
+          "name": "Joyn",
+          "country": {
+            "name": "Germany",
+            "code": "DE",
+            "timezone": "Europe/Busingen"
+          },
+          "officialSite": "http://www.joyn.de"
+        },
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": 311581,
+          "imdb": "tt6221654"
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/537/1342673.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/537/1342673.jpg"
+        },
+        "summary": "<p>Joko and Klaas go all-in and invite good friends to a \"duel for the money\" for the money. Quiz meets poker at the big game night. Knowledge meets bluffing. <br />Absolute cluelessness meets big winnings. In keeping with the occasion <br />quiz questions are posed in a stylish ambience and the correct The correct answer is then played at the gaming table. Who can shine with knowledge shine? Who can bankrupt themselves? Who will bluff their way to victory?</p>",
+        "updated": 1766074099,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/79813"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/3479504",
+            "name": "Anna Dushime, Kida Ramadan, Louis Klamroth, Joko und Klaas zocken um Bares"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 596597,
+    "url": "https://www.tvmaze.com/episodes/596597/legends-with-jbl-1x06-ron-simmons",
+    "name": "Ron Simmons",
+    "season": 1,
+    "number": 6,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "",
+    "airstamp": "2016-02-01T12:00:00+00:00",
+    "runtime": 60,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": "<p>JBL sits down with Ron Simmons to discuss his personal life, becoming an All-American football star at FSU, and his legendary WWE career.</p>",
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/596597"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/4076",
+        "name": "Legends with JBL"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 4076,
+        "url": "https://www.tvmaze.com/shows/4076/legends-with-jbl",
+        "name": "Legends with JBL",
+        "type": "Talk Show",
+        "language": "English",
+        "genres": [
+          "Sports"
+        ],
+        "status": "Ended",
+        "runtime": null,
+        "averageRuntime": 55,
+        "premiered": "2015-09-21",
+        "ended": "2017-02-14",
+        "officialSite": "http://www.wwe.com/inside/networkschedule",
+        "schedule": {
+          "time": "",
+          "days": [
+            "Friday"
+          ]
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 70,
+        "network": null,
+        "webChannel": {
+          "id": 15,
+          "name": "WWE Network",
+          "country": null,
+          "officialSite": null
+        },
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": 306984,
+          "imdb": "tt5193420"
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/19/49826.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/19/49826.jpg"
+        },
+        "summary": "<p><b>Legends with JBL</b> is where former WWE Wrestler &amp; Hall of Famer \"JBL\", John Bradshaw Layfield sits done with and interviews some of the greats of the wrestling world past &amp; present. He will interview Wrestlers, Managers, General Mangers, Owners, Valets and much more.</p>",
+        "updated": 1763589756,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/4076"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/1073609",
+            "name": "Jimmy Hart"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 3238585,
+    "url": "https://www.tvmaze.com/episodes/3238585/fa-cup-catch-up-2016-02-01-fourth-round",
+    "name": "Fourth Round",
+    "season": 2015,
+    "number": 4,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "",
+    "airstamp": "2016-02-01T12:00:00+00:00",
+    "runtime": 10,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/3238585"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/10553",
+        "name": "FA Cup Catch-Up"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 10553,
+        "url": "https://www.tvmaze.com/shows/10553/fa-cup-catch-up",
+        "name": "FA Cup Catch-Up",
+        "type": "Sports",
+        "language": "English",
+        "genres": [],
+        "status": "Ended",
+        "runtime": null,
+        "averageRuntime": 10,
+        "premiered": "2014-11-10",
+        "ended": "2018-05-20",
+        "officialSite": "http://www.bbc.co.uk/programmes/b04t6pty",
+        "schedule": {
+          "time": "",
+          "days": []
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 71,
+        "network": null,
+        "webChannel": {
+          "id": 26,
+          "name": "BBC iPlayer",
+          "country": {
+            "name": "United Kingdom",
+            "code": "GB",
+            "timezone": "Europe/London"
+          },
+          "officialSite": "https://www.bbc.co.uk/iplayer"
+        },
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": null,
+          "imdb": null
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/35/89105.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/35/89105.jpg"
+        },
+        "summary": "<p>A recap of the latest FA cup action.</p>",
+        "updated": 1747129118,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/10553"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/3238609",
+            "name": "The Final"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 618820,
+    "url": "https://www.tvmaze.com/episodes/618820/part-timers-1x04-hobophobic",
+    "name": "Hobophobic",
+    "season": 1,
+    "number": 4,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "",
+    "airstamp": "2016-02-01T12:00:00+00:00",
+    "runtime": 15,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": "",
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/618820"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/11222",
+        "name": "Part Timers"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 11222,
+        "url": "https://www.tvmaze.com/shows/11222/part-timers",
+        "name": "Part Timers",
+        "type": "Scripted",
+        "language": "English",
+        "genres": [
+          "Comedy",
+          "Action"
+        ],
+        "status": "Ended",
+        "runtime": 15,
+        "averageRuntime": 15,
+        "premiered": "2016-01-11",
+        "ended": "2016-05-30",
+        "officialSite": "http://www.smosh.com",
+        "schedule": {
+          "time": "",
+          "days": [
+            "Monday"
+          ]
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 50,
+        "network": null,
+        "webChannel": {
+          "id": 21,
+          "name": "YouTube",
+          "country": null,
+          "officialSite": "https://www.youtube.com"
+        },
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": 305407,
+          "imdb": "tt5371474"
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/50/126165.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/50/126165.jpg"
+        },
+        "summary": "<p>SMOSH presents: an all-new series, where they're having the best time ever… at the worst job ever. <b>Part Timers</b>.</p>",
+        "updated": 1615235723,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/11222"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/817732",
+            "name": "Ghost Sex"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 599205,
+    "url": "https://www.tvmaze.com/episodes/599205/couple-ish-s01-special-the-smoothie-challenge",
+    "name": "The Smoothie Challenge",
+    "season": 1,
+    "number": null,
+    "type": "insignificant_special",
+    "airdate": "2016-02-01",
+    "airtime": "",
+    "airstamp": "2016-02-01T12:00:00+00:00",
+    "runtime": 8,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": "",
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/599205"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/11272",
+        "name": "Couple-ish"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 11272,
+        "url": "https://www.tvmaze.com/shows/11272/couple-ish",
+        "name": "Couple-ish",
+        "type": "Scripted",
+        "language": "English",
+        "genres": [],
+        "status": "Ended",
+        "runtime": 5,
+        "averageRuntime": 5,
+        "premiered": "2015-12-09",
+        "ended": "2017-09-16",
+        "officialSite": null,
+        "schedule": {
+          "time": "",
+          "days": []
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 72,
+        "network": null,
+        "webChannel": {
+          "id": 21,
+          "name": "YouTube",
+          "country": null,
+          "officialSite": "https://www.youtube.com"
+        },
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": 304924,
+          "imdb": null
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/38/95123.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/38/95123.jpg"
+        },
+        "summary": "<p>A new LGBTQ+ webseries about dates, mates, and faking out the Government.</p>",
+        "updated": 1506043724,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/11272"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/1263630",
+            "name": "Something Bold, Something New"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 614090,
+    "url": "https://www.tvmaze.com/episodes/614090/dota-2-play-like-1x46-play-like-spectre",
+    "name": "Play like SPECTRE",
+    "season": 1,
+    "number": 46,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "",
+    "airstamp": "2016-02-01T12:00:00+00:00",
+    "runtime": 3,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": "",
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/614090"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/11896",
+        "name": "Dota 2 Play Like"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 11896,
+        "url": "https://www.tvmaze.com/shows/11896/dota-2-play-like",
+        "name": "Dota 2 Play Like",
+        "type": "Animation",
+        "language": "English",
+        "genres": [
+          "Action"
+        ],
+        "status": "Ended",
+        "runtime": 3,
+        "averageRuntime": 3,
+        "premiered": "2014-05-11",
+        "ended": "2016-11-29",
+        "officialSite": "https://www.youtube.com/channel/UCBdeLc3WC-BCVWDOpyR6zmw",
+        "schedule": {
+          "time": "",
+          "days": []
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 43,
+        "network": null,
+        "webChannel": {
+          "id": 21,
+          "name": "YouTube",
+          "country": null,
+          "officialSite": "https://www.youtube.com"
+        },
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": 48010,
+          "thetvdb": null,
+          "imdb": null
+        },
+        "image": null,
+        "summary": "<p>Dota 2 Funny Cartoon Parody!</p>",
+        "updated": 1571245409,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/11896"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/1032983",
+            "name": "Play like MORPHLING"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 625905,
+    "url": "https://www.tvmaze.com/episodes/625905/shahrzad-1x16-qsmt-shanzdhm",
+    "name": "قسمت شانزدهم",
+    "season": 1,
+    "number": 16,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "",
+    "airstamp": "2016-02-01T12:00:00+00:00",
+    "runtime": 60,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": "",
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/625905"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/13256",
+        "name": "Shahrzad"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 13256,
+        "url": "https://www.tvmaze.com/shows/13256/shahrzad",
+        "name": "Shahrzad",
+        "type": "Scripted",
+        "language": "Persian",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "status": "Ended",
+        "runtime": null,
+        "averageRuntime": 60,
+        "premiered": "2015-10-14",
+        "ended": "2018-06-11",
+        "officialSite": "http://en.shahrzadseries.com",
+        "schedule": {
+          "time": "",
+          "days": [
+            "Monday"
+          ]
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 34,
+        "network": null,
+        "webChannel": {
+          "id": 80,
+          "name": "shahrzadseries.com",
+          "country": {
+            "name": "Iran, Islamic Republic of",
+            "code": "IR",
+            "timezone": "Asia/Tehran"
+          },
+          "officialSite": null
+        },
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": 303403,
+          "imdb": null
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/45/114722.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/45/114722.jpg"
+        },
+        "summary": "<p>The bureaucrat, Bozorg agha is the head of a very powerful mafia syndicate who had a strong role in the coup d'état against Dr. Mosaddegh's legal governmental administration on 18 August 1953. The son and daughter of Bozorg Agha's two freshmen, Shahrzad and Farhad, are about to get married. During the coup chaos, Farhad gets arrested and sentenced to death. Bozorg agha uses the influence he has amongst the coup heads to set Farhad free but in return orders Shahrzad, whom he knows different to other girls, to marry his nephew, Ghobad, whom is also his daughter, Shirin's husband instead of Farhad. The point is that Shirin is sterile and this has caused a lot of dispute and conflict in the marriage life of Shirin and Ghobad, her cousin. Based on such circumstances, a dramatic romance story is formed in which Shahrzad whose a medical student and loves Farhad has no choice but to overcome and cope with undesired situations of which is the beginning of a series of love incidents.</p>",
+        "updated": 1758410333,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/13256"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/1472846",
+            "name": "قسمت شانزدهم"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 693794,
+    "url": "https://www.tvmaze.com/episodes/693794/the-young-turks-2016-02-01-february-1-2016-hour-1",
+    "name": "February 1, 2016 Hour 1",
+    "season": 2016,
+    "number": 58,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "",
+    "airstamp": "2016-02-01T12:00:00+00:00",
+    "runtime": 120,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": "",
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/693794"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/15250",
+        "name": "The Young Turks"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 15250,
+        "url": "https://www.tvmaze.com/shows/15250/the-young-turks",
+        "name": "The Young Turks",
+        "type": "News",
+        "language": "English",
+        "genres": [],
+        "status": "Running",
+        "runtime": 120,
+        "averageRuntime": 120,
+        "premiered": "2013-12-24",
+        "ended": null,
+        "officialSite": "https://www.tytnetwork.com",
+        "schedule": {
+          "time": "",
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ]
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 70,
+        "network": null,
+        "webChannel": {
+          "id": 21,
+          "name": "YouTube",
+          "country": null,
+          "officialSite": "https://www.youtube.com"
+        },
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": 278793,
+          "imdb": "tt1714810"
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/51/129595.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/51/129595.jpg"
+        },
+        "summary": "<p>A daring, funny, and brutally honest show that covers politics, entertainment, movies, sports, and pop culture.</p>",
+        "updated": 1690303780,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/15250"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/2301276",
+            "name": "February 25, 2022 - Hour 2"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 693795,
+    "url": "https://www.tvmaze.com/episodes/693795/the-young-turks-2016-02-01-february-1-2016-hour-2",
+    "name": "February 1, 2016 Hour 2",
+    "season": 2016,
+    "number": 59,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "",
+    "airstamp": "2016-02-01T12:00:00+00:00",
+    "runtime": 120,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": "",
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/693795"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/15250",
+        "name": "The Young Turks"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 15250,
+        "url": "https://www.tvmaze.com/shows/15250/the-young-turks",
+        "name": "The Young Turks",
+        "type": "News",
+        "language": "English",
+        "genres": [],
+        "status": "Running",
+        "runtime": 120,
+        "averageRuntime": 120,
+        "premiered": "2013-12-24",
+        "ended": null,
+        "officialSite": "https://www.tytnetwork.com",
+        "schedule": {
+          "time": "",
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ]
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 70,
+        "network": null,
+        "webChannel": {
+          "id": 21,
+          "name": "YouTube",
+          "country": null,
+          "officialSite": "https://www.youtube.com"
+        },
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": 278793,
+          "imdb": "tt1714810"
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/51/129595.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/51/129595.jpg"
+        },
+        "summary": "<p>A daring, funny, and brutally honest show that covers politics, entertainment, movies, sports, and pop culture.</p>",
+        "updated": 1690303780,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/15250"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/2301276",
+            "name": "February 25, 2022 - Hour 2"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 817142,
+    "url": "https://www.tvmaze.com/episodes/817142/tedtalks-2016-02-01-linda-liukas-a-delightful-way-to-teach-kids-about-computers",
+    "name": "Linda Liukas: A Delightful Way To Teach Kids About Computers",
+    "season": 2016,
+    "number": 20,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "",
+    "airstamp": "2016-02-01T12:00:00+00:00",
+    "runtime": 20,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": "",
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/817142"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/17864",
+        "name": "TEDTalks"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 17864,
+        "url": "https://www.tvmaze.com/shows/17864/tedtalks",
+        "name": "TEDTalks",
+        "type": "Documentary",
+        "language": "English",
+        "genres": [],
+        "status": "Ended",
+        "runtime": 20,
+        "averageRuntime": 20,
+        "premiered": "2002-03-01",
+        "ended": "2020-01-21",
+        "officialSite": "http://www.ted.com/about/programs-initiatives/ted-talks",
+        "schedule": {
+          "time": "",
+          "days": []
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 48,
+        "network": null,
+        "webChannel": {
+          "id": 105,
+          "name": "TED.com",
+          "country": {
+            "name": "United States",
+            "code": "US",
+            "timezone": "America/New_York"
+          },
+          "officialSite": null
+        },
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": 82480,
+          "imdb": null
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/60/150591.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/60/150591.jpg"
+        },
+        "summary": "<p>TED Talks are videos that present a great idea in 18 minutes or less. They're filmed at flagship TED conferences, independent TEDx events, and other programs. Their goal is to share Ideas Worth Spreading — in fields like science, technology, business, culture, art and design — around the world.</p>",
+        "updated": 1594998656,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/17864"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/1880739",
+            "name": "Adam Garske: How designing brand-new enzymes could change the world"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 999485,
+    "url": "https://www.tvmaze.com/episodes/999485/tedtalks-2016-02-01-astro-teller-the-unexpected-benefit-of-celebrating-failure",
+    "name": "Astro Teller: The Unexpected Benefit Of Celebrating Failure",
+    "season": 2016,
+    "number": 75,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "",
+    "airstamp": "2016-02-01T12:00:00+00:00",
+    "runtime": 20,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/999485"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/17864",
+        "name": "TEDTalks"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 17864,
+        "url": "https://www.tvmaze.com/shows/17864/tedtalks",
+        "name": "TEDTalks",
+        "type": "Documentary",
+        "language": "English",
+        "genres": [],
+        "status": "Ended",
+        "runtime": 20,
+        "averageRuntime": 20,
+        "premiered": "2002-03-01",
+        "ended": "2020-01-21",
+        "officialSite": "http://www.ted.com/about/programs-initiatives/ted-talks",
+        "schedule": {
+          "time": "",
+          "days": []
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 48,
+        "network": null,
+        "webChannel": {
+          "id": 105,
+          "name": "TED.com",
+          "country": {
+            "name": "United States",
+            "code": "US",
+            "timezone": "America/New_York"
+          },
+          "officialSite": null
+        },
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": 82480,
+          "imdb": null
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/60/150591.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/60/150591.jpg"
+        },
+        "summary": "<p>TED Talks are videos that present a great idea in 18 minutes or less. They're filmed at flagship TED conferences, independent TEDx events, and other programs. Their goal is to share Ideas Worth Spreading — in fields like science, technology, business, culture, art and design — around the world.</p>",
+        "updated": 1594998656,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/17864"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/1880739",
+            "name": "Adam Garske: How designing brand-new enzymes could change the world"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 936751,
+    "url": "https://www.tvmaze.com/episodes/936751/james-mike-mondays-2016-02-01-mega-man-ultra-nes",
+    "name": "Mega Man Ultra (NES)",
+    "season": 2016,
+    "number": 5,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "",
+    "airstamp": "2016-02-01T12:00:00+00:00",
+    "runtime": null,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": "",
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/936751"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/21398",
+        "name": "James & Mike Mondays"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 21398,
+        "url": "https://www.tvmaze.com/shows/21398/james-mike-mondays",
+        "name": "James & Mike Mondays",
+        "type": "Variety",
+        "language": "English",
+        "genres": [],
+        "status": "Ended",
+        "runtime": null,
+        "averageRuntime": null,
+        "premiered": "2012-12-13",
+        "ended": "2020-07-27",
+        "officialSite": "http://cinemassacre.com/category/jamesandmike/",
+        "schedule": {
+          "time": "",
+          "days": [
+            "Monday"
+          ]
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 47,
+        "network": null,
+        "webChannel": {
+          "id": 21,
+          "name": "YouTube",
+          "country": null,
+          "officialSite": "https://www.youtube.com"
+        },
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": 284618,
+          "imdb": "tt2963600"
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/76/190038.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/76/190038.jpg"
+        },
+        "summary": null,
+        "updated": 1786300264,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/21398"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/1908344",
+            "name": "Short Hiatus Announcement & The Wizard of OZ (SNES)"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 1022577,
+    "url": "https://www.tvmaze.com/episodes/1022577/black-and-white-warriors-1x11-episode-11",
+    "name": "Episode 11",
+    "season": 1,
+    "number": 11,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "",
+    "airstamp": "2016-02-01T12:00:00+00:00",
+    "runtime": 12,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/1022577"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/23916",
+        "name": "Black and White Warriors"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 23916,
+        "url": "https://www.tvmaze.com/shows/23916/black-and-white-warriors",
+        "name": "Black and White Warriors",
+        "type": "Animation",
+        "language": "Chinese",
+        "genres": [
+          "Comedy",
+          "Action",
+          "Anime",
+          "Supernatural"
+        ],
+        "status": "Ended",
+        "runtime": 12,
+        "averageRuntime": 16,
+        "premiered": "2015-07-13",
+        "ended": "2021-09-27",
+        "officialSite": "http://v.qq.com/detail/y/y3t96ajx8vscttp.html",
+        "schedule": {
+          "time": "",
+          "days": []
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 64,
+        "network": null,
+        "webChannel": {
+          "id": 104,
+          "name": "Tencent QQ",
+          "country": {
+            "name": "China",
+            "code": "CN",
+            "timezone": "Asia/Shanghai"
+          },
+          "officialSite": "https://v.qq.com/"
+        },
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": 322177,
+          "imdb": null
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/90/226051.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/90/226051.jpg"
+        },
+        "summary": "<p>A story about two young demons who are always slacking off at work, a place that happens to be an organization that vows to keep the balance between the worlds of the living and dead by killing humans!</p>",
+        "updated": 1662090792,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/23916"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/2383787",
+            "name": "Episode 12"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 1129634,
+    "url": "https://www.tvmaze.com/episodes/1129634/min-hemlighet-2x05-episode-3",
+    "name": "Episode 3",
+    "season": 2,
+    "number": 5,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "",
+    "airstamp": "2016-02-01T12:00:00+00:00",
+    "runtime": 30,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/1129634"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/26951",
+        "name": "Min hemlighet"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 26951,
+        "url": "https://www.tvmaze.com/shows/26951/min-hemlighet",
+        "name": "Min hemlighet",
+        "type": "Scripted",
+        "language": "Swedish",
+        "genres": [],
+        "status": "Ended",
+        "runtime": 30,
+        "averageRuntime": 30,
+        "premiered": "2015-03-29",
+        "ended": "2016-03-02",
+        "officialSite": "https://www.viafree.se/program/drama/min-hemlighet",
+        "schedule": {
+          "time": "",
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Sunday"
+          ]
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 34,
+        "network": null,
+        "webChannel": {
+          "id": 103,
+          "name": "Viaplay",
+          "country": null,
+          "officialSite": "https://viaplay.com"
+        },
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": null,
+          "imdb": "tt4716768"
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/106/266189.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/106/266189.jpg"
+        },
+        "summary": "<p>All we carry on secrets, things we dare not tell even our closest. This can include everything from infidelity, abuse, lies, bullying, revenge, to sin, sickness and forbidden love. Secrets of throwing everything over. In <b>Min hemlighet</b> (My Secret) we tell stories from everyday life that are inspired by real events. We dramatize the Swedish people's confessions about events that changed their lives forever.</p>",
+        "updated": 1603139480,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/26951"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/1129656",
+            "name": "Episode 21"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 1129635,
+    "url": "https://www.tvmaze.com/episodes/1129635/min-hemlighet-2x06-episode-4",
+    "name": "Episode 4",
+    "season": 2,
+    "number": 6,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "",
+    "airstamp": "2016-02-01T12:00:00+00:00",
+    "runtime": 30,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/1129635"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/26951",
+        "name": "Min hemlighet"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 26951,
+        "url": "https://www.tvmaze.com/shows/26951/min-hemlighet",
+        "name": "Min hemlighet",
+        "type": "Scripted",
+        "language": "Swedish",
+        "genres": [],
+        "status": "Ended",
+        "runtime": 30,
+        "averageRuntime": 30,
+        "premiered": "2015-03-29",
+        "ended": "2016-03-02",
+        "officialSite": "https://www.viafree.se/program/drama/min-hemlighet",
+        "schedule": {
+          "time": "",
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Sunday"
+          ]
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 34,
+        "network": null,
+        "webChannel": {
+          "id": 103,
+          "name": "Viaplay",
+          "country": null,
+          "officialSite": "https://viaplay.com"
+        },
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": null,
+          "imdb": "tt4716768"
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/106/266189.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/106/266189.jpg"
+        },
+        "summary": "<p>All we carry on secrets, things we dare not tell even our closest. This can include everything from infidelity, abuse, lies, bullying, revenge, to sin, sickness and forbidden love. Secrets of throwing everything over. In <b>Min hemlighet</b> (My Secret) we tell stories from everyday life that are inspired by real events. We dramatize the Swedish people's confessions about events that changed their lives forever.</p>",
+        "updated": 1603139480,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/26951"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/1129656",
+            "name": "Episode 21"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 1510395,
+    "url": "https://www.tvmaze.com/episodes/1510395/scishow-2016-02-01-why-are-some-world-records-so-hard-to-break",
+    "name": "Why Are Some World Records So Hard to Break?",
+    "season": 2016,
+    "number": 17,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "",
+    "airstamp": "2016-02-01T12:00:00+00:00",
+    "runtime": null,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/1510395"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/30606",
+        "name": "SciShow"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 30606,
+        "url": "https://www.tvmaze.com/shows/30606/scishow",
+        "name": "SciShow",
+        "type": "Documentary",
+        "language": "English",
+        "genres": [],
+        "status": "Running",
+        "runtime": null,
+        "averageRuntime": 9,
+        "premiered": "2012-01-02",
+        "ended": null,
+        "officialSite": "https://www.youtube.com/user/scishow/",
+        "schedule": {
+          "time": "",
+          "days": []
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 34,
+        "network": null,
+        "webChannel": {
+          "id": 21,
+          "name": "YouTube",
+          "country": null,
+          "officialSite": "https://www.youtube.com"
+        },
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": 265193,
+          "imdb": null
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/121/302950.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/121/302950.jpg"
+        },
+        "summary": "<p><b>SciShow</b> explores the unexpected. Seven days a week, Hank Green, Michael Aranda, and Olivia Gordon delve into the scientific subjects that defy our expectations and make us even more curious!</p><p>Schedule:</p><p>Sundays — Learn about the amazing topics we can't quite make a stand-alone show about in SciShow List Show!</p><p>Mondays — Tune in for a short Dose about our weird world.</p><p>Tuesdays — Find answers to our most asked Quick Questions.</p><p>Wednesdays — Hank or Michael dives deep into a long-form Infusion episode, or an unscripted talk show or quiz show with a guest!</p><p>Thursday — Another new dose about the wonders of the world.</p><p>Fridays — Learn the latest in science News.</p><p>Saturdays — Get your quick questions answered!</p>",
+        "updated": 1663776025,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/30606"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/2275469",
+            "name": "These Chimps Treat Each Other's Wounds. With Bugs"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 1264226,
+    "url": "https://www.tvmaze.com/episodes/1264226/hello-mr-right-1x06-episode-6",
+    "name": "Episode 6",
+    "season": 1,
+    "number": 6,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "",
+    "airstamp": "2016-02-01T12:00:00+00:00",
+    "runtime": 30,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/1264226"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/30884",
+        "name": "Hello Mr. Right"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 30884,
+        "url": "https://www.tvmaze.com/shows/30884/hello-mr-right",
+        "name": "Hello Mr. Right",
+        "type": "Scripted",
+        "language": "Chinese",
+        "genres": [
+          "Comedy",
+          "Romance"
+        ],
+        "status": "Ended",
+        "runtime": 30,
+        "averageRuntime": 30,
+        "premiered": "2016-01-25",
+        "ended": "2016-02-25",
+        "officialSite": null,
+        "schedule": {
+          "time": "",
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ]
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 44,
+        "network": null,
+        "webChannel": {
+          "id": 67,
+          "name": "iQIYI",
+          "country": null,
+          "officialSite": "https://www.iq.com/"
+        },
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": 337182,
+          "imdb": null
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/122/306925.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/122/306925.jpg"
+        },
+        "summary": "<p>Lin Xia is a 17-year-old high school student who crosses paths with 35-year-old Zhou Yu Teng and their initial meeting ends in a rumble. To her surprise, Lin Xia finds out that Zhou Yu Teng is actually her class advisor.</p>",
+        "updated": 1599636855,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/30884"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/1264244",
+            "name": "Episode 24"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 1633493,
+    "url": "https://www.tvmaze.com/episodes/1633493/good-mythical-morning-9x16-oldest-things-on-earth-game",
+    "name": "Oldest Things On Earth (GAME)",
+    "season": 9,
+    "number": 16,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "",
+    "airstamp": "2016-02-01T12:00:00+00:00",
+    "runtime": 14,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/1633493"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/41611",
+        "name": "Good Mythical Morning"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 41611,
+        "url": "https://www.tvmaze.com/shows/41611/good-mythical-morning",
+        "name": "Good Mythical Morning",
+        "type": "Talk Show",
+        "language": "English",
+        "genres": [
+          "Comedy",
+          "Food",
+          "Family"
+        ],
+        "status": "Running",
+        "runtime": null,
+        "averageRuntime": 14,
+        "premiered": "2012-01-09",
+        "ended": null,
+        "officialSite": "https://www.youtube.com/channel/UC4PooiX37Pld1T8J5SYT-SQ",
+        "schedule": {
+          "time": "",
+          "days": []
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 67,
+        "network": null,
+        "webChannel": {
+          "id": 21,
+          "name": "YouTube",
+          "country": null,
+          "officialSite": "https://www.youtube.com"
+        },
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": 290686,
+          "imdb": "tt4087032"
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/190/476019.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/190/476019.jpg"
+        },
+        "summary": "<p>Morning talk show created by Rhett McLaughlin and Charles Lincoln 'Link' Neal contains loads of laughter and insanity, known for this quote: \"We do this, so you don't have to.\"</p>",
+        "updated": 1782454392,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/41611"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/3653039",
+            "name": "06/19/2026"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 2130517,
+    "url": "https://www.tvmaze.com/episodes/2130517/good-mythical-more-5x16-pickled-frog-balls-challenge",
+    "name": "Pickled Frog Balls Challenge",
+    "season": 5,
+    "number": 16,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "",
+    "airstamp": "2016-02-01T12:00:00+00:00",
+    "runtime": 12,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/2130517"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/41612",
+        "name": "Good Mythical MORE"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 41612,
+        "url": "https://www.tvmaze.com/shows/41612/good-mythical-more",
+        "name": "Good Mythical MORE",
+        "type": "Talk Show",
+        "language": "English",
+        "genres": [],
+        "status": "Running",
+        "runtime": null,
+        "averageRuntime": 12,
+        "premiered": "2014-01-09",
+        "ended": null,
+        "officialSite": "https://www.youtube.com/user/rhettandlink3",
+        "schedule": {
+          "time": "",
+          "days": []
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 36,
+        "network": null,
+        "webChannel": {
+          "id": 21,
+          "name": "YouTube",
+          "country": null,
+          "officialSite": "https://www.youtube.com"
+        },
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": 333478,
+          "imdb": "tt5646304"
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/444/1111310.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/444/1111310.jpg"
+        },
+        "summary": "<p>Welcome to Good Mythical MORE with Rhett &amp; Link! GMMORE is the show after the show where things are a little more relaxed, but every bit as interesting as Good Mythical Morning. Tune in daily for even more taste tests, challenges, and games!</p><p><br /> </p>",
+        "updated": 1780317733,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/41612"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/3633430",
+            "name": "What Was Dropped On My Head?"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 2130518,
+    "url": "https://www.tvmaze.com/episodes/2130518/good-mythical-more-5x17-7-more-things-you-dont-know",
+    "name": "7 MORE Things You Don't Know",
+    "season": 5,
+    "number": 17,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "",
+    "airstamp": "2016-02-01T12:00:00+00:00",
+    "runtime": 12,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/2130518"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/41612",
+        "name": "Good Mythical MORE"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 41612,
+        "url": "https://www.tvmaze.com/shows/41612/good-mythical-more",
+        "name": "Good Mythical MORE",
+        "type": "Talk Show",
+        "language": "English",
+        "genres": [],
+        "status": "Running",
+        "runtime": null,
+        "averageRuntime": 12,
+        "premiered": "2014-01-09",
+        "ended": null,
+        "officialSite": "https://www.youtube.com/user/rhettandlink3",
+        "schedule": {
+          "time": "",
+          "days": []
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 36,
+        "network": null,
+        "webChannel": {
+          "id": 21,
+          "name": "YouTube",
+          "country": null,
+          "officialSite": "https://www.youtube.com"
+        },
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": 333478,
+          "imdb": "tt5646304"
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/444/1111310.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/444/1111310.jpg"
+        },
+        "summary": "<p>Welcome to Good Mythical MORE with Rhett &amp; Link! GMMORE is the show after the show where things are a little more relaxed, but every bit as interesting as Good Mythical Morning. Tune in daily for even more taste tests, challenges, and games!</p><p><br /> </p>",
+        "updated": 1780317733,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/41612"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/3633430",
+            "name": "What Was Dropped On My Head?"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 1840503,
+    "url": "https://www.tvmaze.com/episodes/1840503/la-vida-moderna-2x23-es-pactar-una-reestructuracion-de-la-deuda-con-el-bar-de-debajo-de-tu-casa",
+    "name": "...es pactar una reestructuración de la deuda con el bar de debajo de tu casa",
+    "season": 2,
+    "number": 23,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "",
+    "airstamp": "2016-02-01T12:00:00+00:00",
+    "runtime": 40,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/1840503"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/47267",
+        "name": "La Vida Moderna"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 47267,
+        "url": "https://www.tvmaze.com/shows/47267/la-vida-moderna",
+        "name": "La Vida Moderna",
+        "type": "Talk Show",
+        "language": "Spanish",
+        "genres": [
+          "Comedy"
+        ],
+        "status": "Ended",
+        "runtime": 30,
+        "averageRuntime": 38,
+        "premiered": "2015-03-24",
+        "ended": "2022-06-01",
+        "officialSite": "https://www.youtube.com/channel/UC6lJZ9Ctx1vcmRY9cFEPyww",
+        "schedule": {
+          "time": "",
+          "days": [
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+          ]
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 51,
+        "network": null,
+        "webChannel": {
+          "id": 21,
+          "name": "YouTube",
+          "country": null,
+          "officialSite": "https://www.youtube.com"
+        },
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": 321364,
+          "imdb": "tt6618922"
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/252/630698.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/252/630698.jpg"
+        },
+        "summary": "<p>Radio show on Cadena Ser in Spain, that also uploads the program in Youtube. Hosted by David Broncano and with Ignatius Farray and Quequé as co-hosts. The Modern Life (La vida moderna) talks about news with a particular sense of humor.</p>",
+        "updated": 1667604985,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/47267"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/2338065",
+            "name": "Y mil"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 1917514,
+    "url": "https://www.tvmaze.com/episodes/1917514/alyssas-secret-4x05-day-in-the-life",
+    "name": "Day in the Life",
+    "season": 4,
+    "number": 5,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "",
+    "airstamp": "2016-02-01T12:00:00+00:00",
+    "runtime": 4,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/1917514"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/49828",
+        "name": "Alyssa's Secret"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 49828,
+        "url": "https://www.tvmaze.com/shows/49828/alyssas-secret",
+        "name": "Alyssa's Secret",
+        "type": "Talk Show",
+        "language": "English",
+        "genres": [
+          "Comedy"
+        ],
+        "status": "Ended",
+        "runtime": null,
+        "averageRuntime": 5,
+        "premiered": "2013-06-03",
+        "ended": "2020-02-24",
+        "officialSite": "https://www.wowpresentsplus.com/alyssa-s-secret",
+        "schedule": {
+          "time": "",
+          "days": [
+            "Monday"
+          ]
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 18,
+        "network": null,
+        "webChannel": {
+          "id": 195,
+          "name": "WOW Presents Plus",
+          "country": null,
+          "officialSite": "http://www.wowpresentsplus.com"
+        },
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": 314991,
+          "imdb": null
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/269/672756.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/269/672756.jpg"
+        },
+        "summary": "<p><b>Alyssa's Secret</b> is a series starring the shining star of RuPaul's Drag Race, Alyssa Edwards. In each episode she spills the T on an array of topics.</p>",
+        "updated": 1713202205,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/49828"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/1917544",
+            "name": "The Single Life"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 2136925,
+    "url": "https://www.tvmaze.com/episodes/2136925/hidden-origins-1x05-modern-uses-for-sacred-sound-technology",
+    "name": "Modern Uses for Sacred Sound Technology",
+    "season": 1,
+    "number": 5,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "",
+    "airstamp": "2016-02-01T12:00:00+00:00",
+    "runtime": 60,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/2136925"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/56585",
+        "name": "Hidden Origins"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 56585,
+        "url": "https://www.tvmaze.com/shows/56585/hidden-origins",
+        "name": "Hidden Origins",
+        "type": "Documentary",
+        "language": null,
+        "genres": [],
+        "status": "Ended",
+        "runtime": 60,
+        "averageRuntime": 60,
+        "premiered": "2016-01-01",
+        "ended": "2016-06-01",
+        "officialSite": null,
+        "schedule": {
+          "time": "",
+          "days": []
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 35,
+        "network": null,
+        "webChannel": {
+          "id": 261,
+          "name": "Gaia",
+          "country": null,
+          "officialSite": null
+        },
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": 358098,
+          "imdb": null
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/344/860266.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/344/860266.jpg"
+        },
+        "summary": "<p>Uncover the clues that expose humanity's true origins as Michael Tellinger reveals secrets hidden within ancient stone circles and artifacts. These secrets could help us once again reclaim our true power and create a new world of abundance and opportunity for all.</p>",
+        "updated": 1627476128,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/56585"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/2136943",
+            "name": "Bringing It Home"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 2136926,
+    "url": "https://www.tvmaze.com/episodes/2136926/hidden-origins-1x06-out-of-place-artifacts-anomalies",
+    "name": "Out of Place Artifacts & Anomalies",
+    "season": 1,
+    "number": 6,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "",
+    "airstamp": "2016-02-01T12:00:00+00:00",
+    "runtime": 60,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/2136926"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/56585",
+        "name": "Hidden Origins"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 56585,
+        "url": "https://www.tvmaze.com/shows/56585/hidden-origins",
+        "name": "Hidden Origins",
+        "type": "Documentary",
+        "language": null,
+        "genres": [],
+        "status": "Ended",
+        "runtime": 60,
+        "averageRuntime": 60,
+        "premiered": "2016-01-01",
+        "ended": "2016-06-01",
+        "officialSite": null,
+        "schedule": {
+          "time": "",
+          "days": []
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 35,
+        "network": null,
+        "webChannel": {
+          "id": 261,
+          "name": "Gaia",
+          "country": null,
+          "officialSite": null
+        },
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": 358098,
+          "imdb": null
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/344/860266.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/344/860266.jpg"
+        },
+        "summary": "<p>Uncover the clues that expose humanity's true origins as Michael Tellinger reveals secrets hidden within ancient stone circles and artifacts. These secrets could help us once again reclaim our true power and create a new world of abundance and opportunity for all.</p>",
+        "updated": 1627476128,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/56585"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/2136943",
+            "name": "Bringing It Home"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 2136927,
+    "url": "https://www.tvmaze.com/episodes/2136927/hidden-origins-1x07-annunaki-and-south-african-gold",
+    "name": "Annunaki and South African Gold",
+    "season": 1,
+    "number": 7,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "",
+    "airstamp": "2016-02-01T12:00:00+00:00",
+    "runtime": 60,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/2136927"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/56585",
+        "name": "Hidden Origins"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 56585,
+        "url": "https://www.tvmaze.com/shows/56585/hidden-origins",
+        "name": "Hidden Origins",
+        "type": "Documentary",
+        "language": null,
+        "genres": [],
+        "status": "Ended",
+        "runtime": 60,
+        "averageRuntime": 60,
+        "premiered": "2016-01-01",
+        "ended": "2016-06-01",
+        "officialSite": null,
+        "schedule": {
+          "time": "",
+          "days": []
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 35,
+        "network": null,
+        "webChannel": {
+          "id": 261,
+          "name": "Gaia",
+          "country": null,
+          "officialSite": null
+        },
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": 358098,
+          "imdb": null
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/344/860266.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/344/860266.jpg"
+        },
+        "summary": "<p>Uncover the clues that expose humanity's true origins as Michael Tellinger reveals secrets hidden within ancient stone circles and artifacts. These secrets could help us once again reclaim our true power and create a new world of abundance and opportunity for all.</p>",
+        "updated": 1627476128,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/56585"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/2136943",
+            "name": "Bringing It Home"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 2136928,
+    "url": "https://www.tvmaze.com/episodes/2136928/hidden-origins-1x08-pyramids-stone-circle-and-the-pineal",
+    "name": "Pyramids, Stone Circle and the Pineal",
+    "season": 1,
+    "number": 8,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "",
+    "airstamp": "2016-02-01T12:00:00+00:00",
+    "runtime": 60,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/2136928"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/56585",
+        "name": "Hidden Origins"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 56585,
+        "url": "https://www.tvmaze.com/shows/56585/hidden-origins",
+        "name": "Hidden Origins",
+        "type": "Documentary",
+        "language": null,
+        "genres": [],
+        "status": "Ended",
+        "runtime": 60,
+        "averageRuntime": 60,
+        "premiered": "2016-01-01",
+        "ended": "2016-06-01",
+        "officialSite": null,
+        "schedule": {
+          "time": "",
+          "days": []
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 35,
+        "network": null,
+        "webChannel": {
+          "id": 261,
+          "name": "Gaia",
+          "country": null,
+          "officialSite": null
+        },
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": 358098,
+          "imdb": null
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/344/860266.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/344/860266.jpg"
+        },
+        "summary": "<p>Uncover the clues that expose humanity's true origins as Michael Tellinger reveals secrets hidden within ancient stone circles and artifacts. These secrets could help us once again reclaim our true power and create a new world of abundance and opportunity for all.</p>",
+        "updated": 1627476128,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/56585"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/2136943",
+            "name": "Bringing It Home"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 2136929,
+    "url": "https://www.tvmaze.com/episodes/2136929/hidden-origins-1x09-adams-calendar-birthplace-of-humanity",
+    "name": "Adam's Calendar: Birthplace of Humanity",
+    "season": 1,
+    "number": 9,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "",
+    "airstamp": "2016-02-01T12:00:00+00:00",
+    "runtime": 60,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/2136929"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/56585",
+        "name": "Hidden Origins"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 56585,
+        "url": "https://www.tvmaze.com/shows/56585/hidden-origins",
+        "name": "Hidden Origins",
+        "type": "Documentary",
+        "language": null,
+        "genres": [],
+        "status": "Ended",
+        "runtime": 60,
+        "averageRuntime": 60,
+        "premiered": "2016-01-01",
+        "ended": "2016-06-01",
+        "officialSite": null,
+        "schedule": {
+          "time": "",
+          "days": []
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 35,
+        "network": null,
+        "webChannel": {
+          "id": 261,
+          "name": "Gaia",
+          "country": null,
+          "officialSite": null
+        },
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": 358098,
+          "imdb": null
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/344/860266.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/344/860266.jpg"
+        },
+        "summary": "<p>Uncover the clues that expose humanity's true origins as Michael Tellinger reveals secrets hidden within ancient stone circles and artifacts. These secrets could help us once again reclaim our true power and create a new world of abundance and opportunity for all.</p>",
+        "updated": 1627476128,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/56585"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/2136943",
+            "name": "Bringing It Home"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 2236017,
+    "url": "https://www.tvmaze.com/episodes/2236017/i-hodet-pa-tufte-1x03-episode-3",
+    "name": "Episode 3",
+    "season": 1,
+    "number": 3,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "",
+    "airstamp": "2016-02-01T12:00:00+00:00",
+    "runtime": 43,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/2236017"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/59470",
+        "name": "I hodet på Tufte"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 59470,
+        "url": "https://www.tvmaze.com/shows/59470/i-hodet-pa-tufte",
+        "name": "I hodet på Tufte",
+        "type": "Documentary",
+        "language": "Norwegian",
+        "genres": [
+          "Sports"
+        ],
+        "status": "Ended",
+        "runtime": 43,
+        "averageRuntime": 43,
+        "premiered": "2016-01-18",
+        "ended": "2016-03-07",
+        "officialSite": "https://www.discoveryplus.com/no/show/i-hodet-pa-tufte",
+        "schedule": {
+          "time": "",
+          "days": [
+            "Monday"
+          ]
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 9,
+        "network": null,
+        "webChannel": {
+          "id": 173,
+          "name": "discovery+",
+          "country": null,
+          "officialSite": "https://www.discoveryplus.com/"
+        },
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": 307577,
+          "imdb": null
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/382/957276.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/382/957276.jpg"
+        },
+        "summary": "<p>Olaf Tufte is getting ready to fight for a medal at the Olympics in Rio, and to become an even better rower he wants to get into the minds of other athletes and understand what they have done to be the best.</p>",
+        "updated": 1639433008,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/59470"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/2236023",
+            "name": "Episode 8"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 2239309,
+    "url": "https://www.tvmaze.com/episodes/2239309/scishow-kids-2016-02-01-fun-facts-about-groundhogs",
+    "name": "Fun Facts About Groundhogs!",
+    "season": 2016,
+    "number": 9,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "",
+    "airstamp": "2016-02-01T12:00:00+00:00",
+    "runtime": 5,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/2239309"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/59555",
+        "name": "SciShow Kids"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 59555,
+        "url": "https://www.tvmaze.com/shows/59555/scishow-kids",
+        "name": "SciShow Kids",
+        "type": "Scripted",
+        "language": "English",
+        "genres": [],
+        "status": "Running",
+        "runtime": 5,
+        "averageRuntime": 5,
+        "premiered": "2015-03-09",
+        "ended": null,
+        "officialSite": "https://www.youtube.com/user/scishowkids",
+        "schedule": {
+          "time": "",
+          "days": []
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 30,
+        "network": null,
+        "webChannel": {
+          "id": 21,
+          "name": "YouTube",
+          "country": null,
+          "officialSite": "https://www.youtube.com"
+        },
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": 341800,
+          "imdb": "tt9883836"
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/384/961633.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/384/961633.jpg"
+        },
+        "summary": "<p><b>SciShow Kids</b> explores all those curious topics that make us ask \"why?\" Whether conducting experiments, researching new questions, or talking with experts, there's always something new to discover with SciShow Kids, no matter what your age!</p>",
+        "updated": 1639852705,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/59555"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/2239646",
+            "name": "The Colors of Stars"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 2348586,
+    "url": "https://www.tvmaze.com/episodes/2348586/the-great-war-who-did-what-in-ww1-1x22-edith-cavell",
+    "name": "Edith Cavell",
+    "season": 1,
+    "number": 22,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "",
+    "airstamp": "2016-02-01T12:00:00+00:00",
+    "runtime": 8,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": "<p>The execution of British nurse Edith Cavell by German soldiers in 1915 was instrumental to British propaganda at that time and the story became legend. But who was Edith Cavell really? Find out more about the humble nurse in Brussels and if she was really a spy after all.</p>",
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/2348586"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/62580",
+        "name": "The Great War: Who Did What in WW1?"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 62580,
+        "url": "https://www.tvmaze.com/shows/62580/the-great-war-who-did-what-in-ww1",
+        "name": "The Great War: Who Did What in WW1?",
+        "type": "Documentary",
+        "language": "English",
+        "genres": [
+          "War",
+          "History"
+        ],
+        "status": "Running",
+        "runtime": null,
+        "averageRuntime": 9,
+        "premiered": "2014-10-28",
+        "ended": null,
+        "officialSite": null,
+        "schedule": {
+          "time": "",
+          "days": []
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 16,
+        "network": null,
+        "webChannel": {
+          "id": 21,
+          "name": "YouTube",
+          "country": null,
+          "officialSite": "https://www.youtube.com"
+        },
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": null,
+          "imdb": null
+        },
+        "image": null,
+        "summary": "<p><b>Who Did What in WW1?</b> is a sub-series of \"The Great War: Week by Week 100 Years Later\" focusing on historical figures of importance during World War I.</p>",
+        "updated": 1695827136,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/62580"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/2348679",
+            "name": "Patton & MacArthur"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 2532825,
+    "url": "https://www.tvmaze.com/episodes/2532825/wisdom-teachings-19x08-wisdom-teachings-150-the-mars-transfer",
+    "name": "Wisdom Teachings: [#150] The Mars Transfer",
+    "season": 19,
+    "number": 8,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "",
+    "airstamp": "2016-02-01T12:00:00+00:00",
+    "runtime": null,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/2532825"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/68323",
+        "name": "Wisdom Teachings"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 68323,
+        "url": "https://www.tvmaze.com/shows/68323/wisdom-teachings",
+        "name": "Wisdom Teachings",
+        "type": "Documentary",
+        "language": "English",
+        "genres": [],
+        "status": "Ended",
+        "runtime": null,
+        "averageRuntime": null,
+        "premiered": "2013-04-08",
+        "ended": "2018-07-09",
+        "officialSite": "https://www.gaia.com/series/wisdom-teachings-0",
+        "schedule": {
+          "time": "",
+          "days": []
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 35,
+        "network": null,
+        "webChannel": {
+          "id": 261,
+          "name": "Gaia",
+          "country": null,
+          "officialSite": null
+        },
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": 298722,
+          "imdb": "tt4896056"
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/458/1146567.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/458/1146567.jpg"
+        },
+        "summary": "<p>David Wilcock, author of Source Field Investigations, exposes some of the greatest secrets and cover-ups of our time in this eye-opening original series. Combining esoteric philosophy, alternative science and historical fact, Wilcock offers viewers the chance to rediscover our ancient systems of physics and spirituality.</p><p><br /><br /> </p>",
+        "updated": 1682350431,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/68323"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/2532942",
+            "name": "Wisdom Teachings : [#267] Rapid Human Evolution: Part 1"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 3501569,
+    "url": "https://www.tvmaze.com/episodes/3501569/smosh-summer-and-winter-games-2x03-t-rex-race-opening-ceremony",
+    "name": "T-Rex Race & Opening Ceremony",
+    "season": 2,
+    "number": 3,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "",
+    "airstamp": "2016-02-01T12:00:00+00:00",
+    "runtime": null,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/3501569"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/89389",
+        "name": "Smosh Summer and Winter Games"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 89389,
+        "url": "https://www.tvmaze.com/shows/89389/smosh-summer-and-winter-games",
+        "name": "Smosh Summer and Winter Games",
+        "type": "Game Show",
+        "language": "English",
+        "genres": [
+          "Sports"
+        ],
+        "status": "Running",
+        "runtime": null,
+        "averageRuntime": null,
+        "premiered": "2015-06-27",
+        "ended": null,
+        "officialSite": "https://www.youtube.com/@SmoshGames",
+        "schedule": {
+          "time": "",
+          "days": []
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 26,
+        "network": null,
+        "webChannel": {
+          "id": 21,
+          "name": "YouTube",
+          "country": null,
+          "officialSite": "https://www.youtube.com"
+        },
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": 465696,
+          "imdb": null
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/605/1514523.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/605/1514523.jpg"
+        },
+        "summary": "<p>\"Smosh Summer and Winter Games\" formerly titled, \"Smosh Seasonal Games\" is an event and series of videos uploaded on the Smosh Games and Smosh Pit channels. It sees the entire Smosh Family divide into teams to compete against each other in season related games.</p>",
+        "updated": 1775801732,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/89389"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/3592255",
+            "name": "Smosh Summer Games Recap (Smosh Mouth)"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 3003675,
+    "url": "https://www.tvmaze.com/episodes/3003675/ios-today-1x283-snapchat-like-a-boss-on-fleek-in-the-his-house",
+    "name": "Snapchat Like a Boss on Fleek in the His House",
+    "season": 1,
+    "number": 283,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "11:00",
+    "airstamp": "2016-02-01T16:00:00+00:00",
+    "runtime": null,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/3003675"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/79540",
+        "name": "iOS Today"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 79540,
+        "url": "https://www.tvmaze.com/shows/79540/ios-today",
+        "name": "iOS Today",
+        "type": "News",
+        "language": "English",
+        "genres": [],
+        "status": "Running",
+        "runtime": null,
+        "averageRuntime": null,
+        "premiered": "2010-07-08",
+        "ended": null,
+        "officialSite": "https://twit.tv/shows/ios-today",
+        "schedule": {
+          "time": "11:00",
+          "days": [
+            "Monday"
+          ]
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 35,
+        "network": null,
+        "webChannel": {
+          "id": 102,
+          "name": "Twit",
+          "country": {
+            "name": "United States",
+            "code": "US",
+            "timezone": "America/New_York"
+          },
+          "officialSite": null
+        },
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": 277166,
+          "imdb": "tt3606274"
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/535/1338277.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/535/1338277.jpg"
+        },
+        "summary": "<p>Join Rosemary Orchard and Mikah Sargent for<b> iOS Today</b>, TWiT.tv's podcast for all things iPhone, iPad, Apple Watch, Apple TV, and more! From app reviews to helpful tips and tricks, from the latest news to the coolest accessories, Rosemary and Mikah will help you make the most of all your iOS devices.</p>",
+        "updated": 1726181332,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/79540"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/3003720",
+            "name": "New Year Resolutions"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 788215,
+    "url": "https://www.tvmaze.com/episodes/788215/dana-white-lookin-for-a-fight-2016-02-01-alaska",
+    "name": "Alaska",
+    "season": 2016,
+    "number": 2,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "",
+    "airstamp": "2016-02-01T17:00:00+00:00",
+    "runtime": 25,
+    "rating": {
+      "average": null
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_landscape/198/496728.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/198/496728.jpg"
+    },
+    "summary": "<p>Dana, Matt and Nick endure sub-freezing temperatures in Alaska to go paddle boarding in Resurrection Bay and try dog sledding with an Iditarod champions. Matt shares some of his BJJ knowledge to local fighters and even rolls with Nick the Tooth. The boys check out a promotion called the AFC, and Dana is impressed with the up and coming MMA scene in Alaska.</p>",
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/788215"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/17266",
+        "name": "Dana White: Lookin' for a Fight"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 17266,
+        "url": "https://www.tvmaze.com/shows/17266/dana-white-lookin-for-a-fight",
+        "name": "Dana White: Lookin' for a Fight",
+        "type": "Reality",
+        "language": "English",
+        "genres": [
+          "Action",
+          "Travel",
+          "Sports"
+        ],
+        "status": "Running",
+        "runtime": null,
+        "averageRuntime": 27,
+        "premiered": "2016-01-04",
+        "ended": null,
+        "officialSite": "https://www.youtube.com/playlist?list=PL9m3-_Hv6qNgju4RtKK0oc3IokbXEwJll",
+        "schedule": {
+          "time": "",
+          "days": []
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 80,
+        "network": null,
+        "webChannel": {
+          "id": 45,
+          "name": "UFC Fight Pass",
+          "country": {
+            "name": "United States",
+            "code": "US",
+            "timezone": "America/New_York"
+          },
+          "officialSite": null
+        },
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": 313681,
+          "imdb": "tt5652722"
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/207/519184.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/207/519184.jpg"
+        },
+        "summary": "<p><b>Dana White: Lookin' for a Fight</b> follows UFC President Dana White as he travels around the country with his friends, sampling the best in local food, fun and fights as he scouts up-and-coming MMA talent.</p>",
+        "updated": 1749076687,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/17266"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/3263070",
+            "name": "Tampa"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 3175069,
+    "url": "https://www.tvmaze.com/episodes/3175069/be-smart-2016-02-01-why-seasons-make-no-sense",
+    "name": "Why Seasons Make No Sense",
+    "season": 2016,
+    "number": 4,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "",
+    "airstamp": "2016-02-01T17:00:00+00:00",
+    "runtime": null,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/3175069"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/83243",
+        "name": "Be Smart"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 83243,
+        "url": "https://www.tvmaze.com/shows/83243/be-smart",
+        "name": "Be Smart",
+        "type": "Documentary",
+        "language": "English",
+        "genres": [],
+        "status": "Running",
+        "runtime": null,
+        "averageRuntime": 15,
+        "premiered": "2013-01-28",
+        "ended": null,
+        "officialSite": "https://www.pbs.org/show/its-okay-be-smart/",
+        "schedule": {
+          "time": "",
+          "days": []
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 23,
+        "network": null,
+        "webChannel": {
+          "id": 420,
+          "name": "PBS",
+          "country": {
+            "name": "United States",
+            "code": "US",
+            "timezone": "America/New_York"
+          },
+          "officialSite": null
+        },
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": 296309,
+          "imdb": "tt8509256"
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/559/1399417.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/559/1399417.jpg"
+        },
+        "summary": "<p>Join Joe Hanson as he explores curiosity and illuminates the science behind… well, everything.</p><p> </p>",
+        "updated": 1787205753,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/83243"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/3706085",
+            "name": "The Very Weird Reason Hot Water Freezes Faster"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 856861,
+    "url": "https://www.tvmaze.com/episodes/856861/atop-the-fourth-wall-8x05-the-star-wars-3",
+    "name": "The Star Wars #3",
+    "season": 8,
+    "number": 5,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "16:00",
+    "airstamp": "2016-02-01T21:00:00+00:00",
+    "runtime": 25,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": null,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/856861"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/18971",
+        "name": "Atop the Fourth Wall"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 18971,
+        "url": "https://www.tvmaze.com/shows/18971/atop-the-fourth-wall",
+        "name": "Atop the Fourth Wall",
+        "type": "Variety",
+        "language": "English",
+        "genres": [],
+        "status": "Running",
+        "runtime": null,
+        "averageRuntime": 26,
+        "premiered": "2008-10-26",
+        "ended": null,
+        "officialSite": "http://www.atopthefourthwall.com",
+        "schedule": {
+          "time": "",
+          "days": [
+            "Monday"
+          ]
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 61,
+        "network": null,
+        "webChannel": {
+          "id": 21,
+          "name": "YouTube",
+          "country": null,
+          "officialSite": "https://www.youtube.com"
+        },
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": 247956,
+          "imdb": "tt1868207"
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/65/164161.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/65/164161.jpg"
+        },
+        "summary": "<p><b>Atop the Fourth Wall</b> is a comic book review show, hosted by Lewis \"Linkara\" Lovhaug. The show specializes in reviewing really bad comic books.</p>",
+        "updated": 1786534431,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/18971"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/3696519",
+            "name": "Star Wars Annual #1 (1979)"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 589216,
+    "url": "https://www.tvmaze.com/episodes/589216/football-focus-15x28-transfer-deadline-day-special",
+    "name": "Transfer Deadline Day Special",
+    "season": 15,
+    "number": 28,
+    "type": "regular",
+    "airdate": "2016-02-01",
+    "airtime": "23:15",
+    "airstamp": "2016-02-01T23:15:00+00:00",
+    "runtime": 35,
+    "rating": {
+      "average": null
+    },
+    "image": null,
+    "summary": "<p>Dan Walker and the panel discuss all the transfer news.</p>",
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/episodes/589216"
+      },
+      "show": {
+        "href": "https://api.tvmaze.com/shows/6540",
+        "name": "Football Focus"
+      }
+    },
+    "_embedded": {
+      "show": {
+        "id": 6540,
+        "url": "https://www.tvmaze.com/shows/6540/football-focus",
+        "name": "Football Focus",
+        "type": "Sports",
+        "language": "English",
+        "genres": [],
+        "status": "Ended",
+        "runtime": null,
+        "averageRuntime": 55,
+        "premiered": "2014-05-03",
+        "ended": "2026-05-24",
+        "officialSite": "http://www.bbc.co.uk/programmes/b006m8tc",
+        "schedule": {
+          "time": "12:00",
+          "days": [
+            "Saturday"
+          ]
+        },
+        "rating": {
+          "average": null
+        },
+        "weight": 74,
+        "network": {
+          "id": 12,
+          "name": "BBC One",
+          "country": {
+            "name": "United Kingdom",
+            "code": "GB",
+            "timezone": "Europe/London"
+          },
+          "officialSite": "https://www.bbc.co.uk/bbcone"
+        },
+        "webChannel": null,
+        "dvdCountry": null,
+        "externals": {
+          "tvrage": null,
+          "thetvdb": 290862,
+          "imdb": "tt0962884"
+        },
+        "image": {
+          "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/582/1456546.jpg",
+          "original": "https://static.tvmaze.com/uploads/images/original_untouched/582/1456546.jpg"
+        },
+        "summary": "<p>A preview of all the top footballing action with detailed analysis from an expert panel of guests.</p>",
+        "updated": 1779694650,
+        "_links": {
+          "self": {
+            "href": "https://api.tvmaze.com/shows/6540"
+          },
+          "previousepisode": {
+            "href": "https://api.tvmaze.com/episodes/3618329",
+            "name": "24/05/2026"
+          }
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "/search/shows?q=game of thrones": "search-game-of-thrones.json",
+  "/search/shows?q=westworld": "search-westworld.json",
+  "/search/shows?q=zzqqzz": { "status": 200, "body": [] },
+  "/singlesearch/shows?embed[]=nextepisode&embed[]=previousepisode&q=game of thrones": "singlesearch-game-of-thrones.json",
+  "/singlesearch/shows?embed[]=nextepisode&embed[]=previousepisode&q=zzqqzz": { "status": 404, "body": { "name": "Not Found", "message": "", "code": 0, "status": 404 } },
+  "/shows/82": "show-82.json",
+  "/shows/82?embed[]=nextepisode&embed[]=previousepisode": "show-82-embedded.json",
+  "/shows/42281?embed[]=nextepisode&embed[]=previousepisode": "show-42281-embedded.json",
+  "/shows/1371": "show-1371.json",
+  "/shows/1371?embed[]=nextepisode&embed[]=previousepisode": "show-1371-embedded.json",
+  "/shows/1?embed[]=nextepisode&embed[]=previousepisode": { "sequence": [{ "status": 429, "headers": { "retry-after": "0" } }, "show-1-embedded.json"] },
+  "/shows/9999999": { "status": 404, "body": { "name": "Not Found", "message": "", "code": 0, "status": 404 } },
+  "/schedule?country=US&date=2016-02-01": "schedule-us-2016-02-01.json",
+  "/schedule?country=US&date=2016-02-02": "schedule-us-2016-02-02.json",
+  "/schedule?country=US&date=2016-01-31": "schedule-us-2016-01-31.json",
+  "/schedule?country=US&date=2016-02-05": { "status": 200, "body": [] },
+  "/schedule?country=GB&date=2016-02-01": "schedule-gb-2016-02-01.json",
+  "/schedule/web?date=2016-02-01": "schedule-web-2016-02-01.json"
+}

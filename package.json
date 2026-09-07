@@ -1,65 +1,74 @@
 {
   "name": "tvst",
-  "version": "0.3.1",
-  "description": "TV Shows Tracker (TVST) in command-line",
-  "main": "./lib/tvst.js",
+  "version": "1.0.0",
+  "description": "TV Shows Tracker (TVST) on the command line",
+  "type": "module",
+  "bin": {
+    "tvst": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "CHANGELOG.md"
+  ],
+  "engines": {
+    "node": ">=22.12"
+  },
   "scripts": {
-    "compile": "rimraf lib && babel -d lib/ src/",
-    "prepublish": "npm run compile",
-    "pretest": "npm run lint",
-    "test": "ava",
-    "lint": "jshint ./src/*.js"
+    "build": "tsup",
+    "dev": "tsx src/cli.ts",
+    "typecheck": "tsc --noEmit",
+    "lint": "biome ci .",
+    "format": "biome check --write .",
+    "test": "npm run build && vitest run",
+    "test:unit": "vitest run --project unit",
+    "test:e2e": "npm run build && vitest run --project e2e",
+    "test:live": "npm run build && TVST_LIVE=1 vitest run --project live",
+    "fixtures:record": "tsx scripts/record-fixtures.ts",
+    "prepack": "npm run build"
   },
   "author": {
     "name": "Shahriar Mahmood",
-    "email": "shahriar1@ymail.com",
     "url": "https://github.com/shahriar1"
   },
   "license": "MIT",
-  "bin": {
-    "tvst": "./lib/tvst.js"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahriar1/tvst.git"
   },
-  "ava": {
-    "files": [
-      "tests/*.js"
-    ]
-  },
-  "dependencies": {
-    "axios": "^0.30.2",
-    "babel-preset-es2015": "^6.24.1",
-    "chalk": "^1.1.3",
-    "cli-table": "^0.3.1",
-    "colors": "^1.1.2",
-    "commander": "^2.9.0",
-    "date.js": "^0.3.1",
-    "fs-promise": "^2.0.2",
-    "fuzzyset.js": "0.0.1",
-    "inquirer": "^3.0.6",
-    "lodash": "^4.13.1",
-    "moment": "^2.13.0",
-    "moment-timezone": "^0.5.4",
-    "ora": "^0.2.3"
-  },
-  "devDependencies": {
-    "ava": "^3.8.1",
-    "babel-cli": "^6.10.1",
-    "execa": "^0.4.0",
-    "jshint": "^2.9.2",
-    "rimraf": "^2.6.1"
+  "homepage": "https://github.com/shahriar1/tvst#readme",
+  "bugs": {
+    "url": "https://github.com/shahriar1/tvst/issues"
   },
   "keywords": [
     "tv",
     "tvmaze",
+    "tv-shows",
     "shows",
     "series",
+    "episodes",
+    "schedule",
     "tracker",
-    "cli"
+    "cli",
+    "typescript"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/shahriar1/tvst.git"
+  "dependencies": {
+    "@clack/prompts": "^1.7.0",
+    "chalk": "^6.0.0",
+    "chrono-node": "^2.10.1",
+    "cli-table3": "^0.6.5",
+    "commander": "^15.0.0",
+    "conf": "^15.1.0",
+    "luxon": "^3.7.2",
+    "string-width": "^8.2.2"
   },
-  "bugs": {
-    "url": "https://github.com/shahriar1/tvst/issues"
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.12",
+    "@types/luxon": "^3.7.5",
+    "@types/node": "^24.13.3",
+    "execa": "^10.0.1",
+    "tsup": "^8.5.1",
+    "tsx": "^4.23.13",
+    "typescript": "^6.0.3",
+    "vitest": "^5.0.0"
   }
 }

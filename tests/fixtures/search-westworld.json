@@ -1,0 +1,541 @@
+[
+  {
+    "score": 0.89318734,
+    "show": {
+      "id": 1371,
+      "url": "https://www.tvmaze.com/shows/1371/westworld",
+      "name": "Westworld",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Drama",
+        "Science-Fiction",
+        "Western"
+      ],
+      "status": "Ended",
+      "runtime": 60,
+      "averageRuntime": 63,
+      "premiered": "2016-10-02",
+      "ended": "2022-08-14",
+      "officialSite": "http://www.hbo.com/westworld",
+      "schedule": {
+        "time": "21:00",
+        "days": [
+          "Sunday"
+        ]
+      },
+      "rating": {
+        "average": 8.2
+      },
+      "weight": 99,
+      "network": {
+        "id": 8,
+        "name": "HBO",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": "https://www.hbo.com/"
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": 37537,
+        "thetvdb": 296762,
+        "imdb": "tt0475784"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/445/1113927.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/445/1113927.jpg"
+      },
+      "summary": "<p><b>Westworld</b> is a dark odyssey about the dawn of artificial consciousness and the evolution of sin. Set at the intersection of the near future and the reimagined past, it explores a world in which every human appetite, no matter how noble or depraved, can be indulged.</p>",
+      "updated": 1744667671,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/1371"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/2326661",
+          "name": "Que Será, Será"
+        }
+      }
+    }
+  },
+  {
+    "score": 0.67075384,
+    "show": {
+      "id": 9702,
+      "url": "https://www.tvmaze.com/shows/9702/beyond-westworld",
+      "name": "Beyond Westworld",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Action",
+        "Science-Fiction",
+        "Thriller"
+      ],
+      "status": "Ended",
+      "runtime": 60,
+      "averageRuntime": 60,
+      "premiered": "1980-03-05",
+      "ended": "1980-03-19",
+      "officialSite": null,
+      "schedule": {
+        "time": "",
+        "days": [
+          "Wednesday"
+        ]
+      },
+      "rating": {
+        "average": null
+      },
+      "weight": 74,
+      "network": {
+        "id": 2,
+        "name": "CBS",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": "https://www.cbs.com/"
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": 77993,
+        "imdb": "tt0080198"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/88/221428.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/88/221428.jpg"
+      },
+      "summary": "<p><b>Beyond Westworld </b>is a 1980 television series that carried on the stories of the two feature films, Westworld and Futureworld.</p><p>The story revolved around Delos Corporation Security Chief John Moore having to stop the evil scientist Quaid as he planned to use the robots in Delos to try to take over the world. Despite being nominated for two Emmys (Outstanding Achievement In Makeup, and Outstanding Art Direction for a Series), only five episodes were produced, and only three of them were aired before cancellation.</p>",
+      "updated": 1765855676,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/9702"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/520703",
+          "name": "Sound of Terror"
+        }
+      }
+    }
+  },
+  {
+    "score": 0.6315155,
+    "show": {
+      "id": 36321,
+      "url": "https://www.tvmaze.com/shows/36321/westword",
+      "name": "West:Word",
+      "type": "Talk Show",
+      "language": "English",
+      "genres": [],
+      "status": "Ended",
+      "runtime": 30,
+      "averageRuntime": 33,
+      "premiered": "2018-04-23",
+      "ended": "2018-06-25",
+      "officialSite": "https://www.sky.com/watch/title/series/5c3cb91f-4d5a-4405-8484-2797361dc426",
+      "schedule": {
+        "time": "22:10",
+        "days": [
+          "Monday"
+        ]
+      },
+      "rating": {
+        "average": null
+      },
+      "weight": 65,
+      "network": {
+        "id": 113,
+        "name": "Sky Atlantic",
+        "country": {
+          "name": "United Kingdom",
+          "code": "GB",
+          "timezone": "Europe/London"
+        },
+        "officialSite": "https://www.sky.com/watch/channel/sky-atlantic"
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": 346545,
+        "imdb": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/153/383382.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/153/383382.jpg"
+      },
+      "summary": "<p>Filmed in front of a live studio audience, <b>West:Word</b> features celebrity fans, series creators and cast members as they recap the latest episode of <i>Westworld</i> on a replica set of the Mariposa Saloon.</p>",
+      "updated": 1587255248,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/36321"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/1482228",
+          "name": "Episode 10"
+        }
+      }
+    }
+  },
+  {
+    "score": 0.36981654,
+    "show": {
+      "id": 23050,
+      "url": "https://www.tvmaze.com/shows/23050/nextworld",
+      "name": "NextWorld",
+      "type": "Documentary",
+      "language": "English",
+      "genres": [],
+      "status": "Ended",
+      "runtime": 60,
+      "averageRuntime": 60,
+      "premiered": "2008-08-06",
+      "ended": "2009-04-07",
+      "officialSite": null,
+      "schedule": {
+        "time": "20:00",
+        "days": [
+          "Thursday"
+        ]
+      },
+      "rating": {
+        "average": null
+      },
+      "weight": 51,
+      "network": {
+        "id": 66,
+        "name": "Discovery",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": "https://www.discovery.com/"
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": 82754,
+        "imdb": "tt1275286"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/85/214397.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/85/214397.jpg"
+      },
+      "summary": "<p><b>NextWorld</b> reveals the science, the inventions and the innovations that seem impossible now, but will be a reality in our lifetimes. Imagine cities under the oceans, bionic suits, space tourism, superspeed trains, cyborg moths, windships, hoverbikes, somatic sensors, virtual reality, people living to 150 years old -- these may be just the dreams of today but they will shape the NextWorld.</p>",
+      "updated": 1479833856,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/23050"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/995491",
+          "name": "Future Fun"
+        }
+      }
+    }
+  },
+  {
+    "score": 0.2912095,
+    "show": {
+      "id": 56955,
+      "url": "https://www.tvmaze.com/shows/56955/the-westward",
+      "name": "The Westward",
+      "type": "Animation",
+      "language": "Chinese",
+      "genres": [
+        "Anime"
+      ],
+      "status": "Ended",
+      "runtime": 20,
+      "averageRuntime": 20,
+      "premiered": "2018-07-18",
+      "ended": "2020-01-29",
+      "officialSite": "http://www.bmcomic.com/view/product_xxj.html?v=1599928758366",
+      "schedule": {
+        "time": "",
+        "days": [
+          "Wednesday"
+        ]
+      },
+      "rating": {
+        "average": null
+      },
+      "weight": 44,
+      "network": null,
+      "webChannel": {
+        "id": 104,
+        "name": "Tencent QQ",
+        "country": {
+          "name": "China",
+          "code": "CN",
+          "timezone": "Asia/Shanghai"
+        },
+        "officialSite": "https://v.qq.com/"
+      },
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": 371131,
+        "imdb": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/350/875633.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/350/875633.jpg"
+      },
+      "summary": "<p>The journey to the West was a conspiracy of heaven! After Sutra went missing for more than a decade, Heaven sent its army to search, in order not to let the Sutra once again fall into the hands of heaven, the journey to West begin again.</p>",
+      "updated": 1629461519,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/56955"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/2151718",
+          "name": "EP22"
+        }
+      }
+    }
+  },
+  {
+    "score": 0.2828859,
+    "show": {
+      "id": 63195,
+      "url": "https://www.tvmaze.com/shows/63195/tim-westwood",
+      "name": "Tim Westwood",
+      "type": "Documentary",
+      "language": "English",
+      "genres": [],
+      "status": "Ended",
+      "runtime": 30,
+      "averageRuntime": 30,
+      "premiered": "2022-04-26",
+      "ended": "2022-07-13",
+      "officialSite": "https://www.bbc.co.uk/programmes/p0cll43g",
+      "schedule": {
+        "time": "",
+        "days": [
+          "Tuesday",
+          "Wednesday"
+        ]
+      },
+      "rating": {
+        "average": null
+      },
+      "weight": 39,
+      "network": {
+        "id": 49,
+        "name": "BBC Three",
+        "country": {
+          "name": "United Kingdom",
+          "code": "GB",
+          "timezone": "Europe/London"
+        },
+        "officialSite": "https://www.bbc.co.uk/bbcthree"
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": 422509,
+        "imdb": null
+      },
+      "image": null,
+      "summary": "<p>BBC Three investigates the renowned rap DJ, hearing from six black women who accuse him of sexual misconduct, predatory sexual encounters and unwanted touching.</p>",
+      "updated": 1699208687,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/63195"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/2365342",
+          "name": "Hip-Hop's Open Secret"
+        }
+      }
+    }
+  },
+  {
+    "score": 0.2805356,
+    "show": {
+      "id": 54998,
+      "url": "https://www.tvmaze.com/shows/54998/fantasy-westward-journey",
+      "name": "Fantasy Westward Journey",
+      "type": "Scripted",
+      "language": "Chinese",
+      "genres": [],
+      "status": "Ended",
+      "runtime": 45,
+      "averageRuntime": 45,
+      "premiered": "2021-04-22",
+      "ended": "2021-05-08",
+      "officialSite": "https://w.mgtv.com/b/367639/11735825.html?cxid=90fe36tp1",
+      "schedule": {
+        "time": "",
+        "days": [
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ]
+      },
+      "rating": {
+        "average": null
+      },
+      "weight": 59,
+      "network": null,
+      "webChannel": {
+        "id": 226,
+        "name": "Mango TV",
+        "country": {
+          "name": "China",
+          "code": "CN",
+          "timezone": "Asia/Shanghai"
+        },
+        "officialSite": "https://w.mgtv.com/"
+      },
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": 401261,
+        "imdb": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/311/778012.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/311/778012.jpg"
+      },
+      "summary": "<p>The drama tells the story of a group of online game experts. Because of a bug, they get drawn into the game. The border between the real world and the gaming world begins to blur.</p>",
+      "updated": 1620452499,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/54998"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/2078970",
+          "name": "Episode 20"
+        }
+      }
+    }
+  },
+  {
+    "score": 0.26259843,
+    "show": {
+      "id": 36614,
+      "url": "https://www.tvmaze.com/shows/36614/westwood-park",
+      "name": "Westwood Park",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Drama"
+      ],
+      "status": "Ended",
+      "runtime": 30,
+      "averageRuntime": 30,
+      "premiered": null,
+      "ended": null,
+      "officialSite": null,
+      "schedule": {
+        "time": "",
+        "days": []
+      },
+      "rating": {
+        "average": null
+      },
+      "weight": 28,
+      "network": {
+        "id": 1599,
+        "name": "CCN TV6",
+        "country": {
+          "name": "Trinidad and Tobago",
+          "code": "TT",
+          "timezone": "America/Port_of_Spain"
+        },
+        "officialSite": null
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": null,
+        "imdb": "tt0377287"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/154/387432.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/154/387432.jpg"
+      },
+      "summary": "<p>Westwood Park weaves the story of the Dusoleil and Gunn-Munroe families, whose affluent lifestyles and picture-perfect smiles become less than idyllic on closer inspection. The manipulative and power-hungry Herbert dominates the Gunn-Munroe clan, while the conscientious and upstanding Jonathan heads the Dusoleil family. Set in lush and luxurious locations rarely seen in Caribbean dramas, Westwood Park is driven by the universal topics of love, hate, power, lust, greed, corruption, romance, heartbreak and the strive for social justice and consciousness.</p>",
+      "updated": 1525610879,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/36614"
+        }
+      }
+    }
+  },
+  {
+    "score": 0.23961398,
+    "show": {
+      "id": 91729,
+      "url": "https://www.tvmaze.com/shows/91729/westward-overworked",
+      "name": "Westward: Overworked",
+      "type": "Animation",
+      "language": null,
+      "genres": [
+        "Action"
+      ],
+      "status": "Ended",
+      "runtime": null,
+      "averageRuntime": null,
+      "premiered": "2025-05-13",
+      "ended": "2025-07-08",
+      "officialSite": null,
+      "schedule": {
+        "time": "",
+        "days": [
+          "Tuesday"
+        ]
+      },
+      "rating": {
+        "average": null
+      },
+      "weight": 19,
+      "network": null,
+      "webChannel": {
+        "id": 51,
+        "name": "Bilibili",
+        "country": {
+          "name": "China",
+          "code": "CN",
+          "timezone": "Asia/Shanghai"
+        },
+        "officialSite": null
+      },
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": null,
+        "imdb": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/624/1560067.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/624/1560067.jpg"
+      },
+      "summary": null,
+      "updated": 1777968727,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/91729"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/3610318",
+          "name": "Episode 10"
+        }
+      }
+    }
+  }
+]

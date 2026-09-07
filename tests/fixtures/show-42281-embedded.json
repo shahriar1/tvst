@@ -1,0 +1,86 @@
+{
+  "id": 42281,
+  "url": "https://www.tvmaze.com/shows/42281/game-of-thrones-inside-the-episode",
+  "name": "Game of Thrones: Inside the Episode",
+  "type": "Documentary",
+  "language": "English",
+  "genres": [],
+  "status": "Ended",
+  "runtime": 8,
+  "averageRuntime": 8,
+  "premiered": "2019-04-14",
+  "ended": "2019-05-12",
+  "officialSite": "https://www.youtube.com/channel/UCQzdMyuz0Lf4zo4uGcEujFw",
+  "schedule": {
+    "time": "18:00",
+    "days": [
+      "Sunday"
+    ]
+  },
+  "rating": {
+    "average": null
+  },
+  "weight": 78,
+  "network": {
+    "id": 8,
+    "name": "HBO",
+    "country": {
+      "name": "United States",
+      "code": "US",
+      "timezone": "America/New_York"
+    },
+    "officialSite": "https://www.hbo.com/"
+  },
+  "webChannel": {
+    "id": 21,
+    "name": "YouTube",
+    "country": null,
+    "officialSite": "https://www.youtube.com"
+  },
+  "dvdCountry": null,
+  "externals": {
+    "tvrage": null,
+    "thetvdb": null,
+    "imdb": null
+  },
+  "image": null,
+  "summary": "<p>Behind the scenes of Game of Thrones.</p>",
+  "updated": 1561639292,
+  "_links": {
+    "self": {
+      "href": "https://api.tvmaze.com/shows/42281"
+    },
+    "previousepisode": {
+      "href": "https://api.tvmaze.com/episodes/1660268",
+      "name": "Episode 5"
+    }
+  },
+  "_embedded": {
+    "previousepisode": {
+      "id": 1660268,
+      "url": "https://www.tvmaze.com/episodes/1660268/game-of-thrones-inside-the-episode-1x05-episode-5",
+      "name": "Episode 5",
+      "season": 1,
+      "number": 5,
+      "type": "regular",
+      "airdate": "2019-05-12",
+      "airtime": "22:00",
+      "airstamp": "2019-05-13T02:00:00+00:00",
+      "runtime": 9,
+      "rating": {
+        "average": null
+      },
+      "image": null,
+      "summary": null,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/episodes/1660268"
+        },
+        "show": {
+          "href": "https://api.tvmaze.com/shows/42281",
+          "name": "Game of Thrones: Inside the Episode"
+        }
+      }
+    }
+  }
+}
