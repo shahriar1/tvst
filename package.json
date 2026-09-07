@@ -22,7 +22,7 @@
     "test": "npm run build && vitest run",
     "test:unit": "vitest run --project unit",
     "test:e2e": "npm run build && vitest run --project e2e",
-    "test:live": "TVST_LIVE=1 vitest run --project live",
+    "test:live": "npm run build && TVST_LIVE=1 vitest run --project live",
     "fixtures:record": "tsx scripts/record-fixtures.ts",
     "prepack": "npm run build"
   },
