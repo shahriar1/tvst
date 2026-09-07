@@ -2,6 +2,7 @@
 import { Command, CommanderError } from 'commander';
 import pkg from '../package.json' with { type: 'json' };
 import { ApiError, NetworkError, NotFoundError } from './api/tvmaze.js';
+import { registerSchedule } from './commands/schedule.js';
 import { registerSearch } from './commands/search.js';
 import { CliError, ExitCode, type ExitCodeValue, eprintln } from './lib/output.js';
 import { theme } from './ui/theme.js';
@@ -18,6 +19,7 @@ program
   .showSuggestionAfterError()
   .exitOverride();
 
+registerSchedule(program, pkg.version);
 registerSearch(program, pkg.version);
 
 function reportError(error: unknown): ExitCodeValue {
@@ -58,6 +60,12 @@ function reportError(error: unknown): ExitCodeValue {
   }
   return code;
 }
+
+// Piping into `head` or a closed pager should end quietly, not with a stack trace.
+process.stdout.on('error', (error: NodeJS.ErrnoException) => {
+  if (error.code === 'EPIPE') process.exit(0);
+  throw error;
+});
 
 async function main(): Promise<void> {
   if (process.argv.length <= 2) {

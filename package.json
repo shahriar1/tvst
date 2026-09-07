@@ -58,8 +58,8 @@
     "cli-table3": "^0.6.5",
     "commander": "^15.0.0",
     "conf": "^15.1.0",
-    "fuse.js": "^7.5.0",
-    "luxon": "^3.7.2"
+    "luxon": "^3.7.2",
+    "string-width": "^8.2.2"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.5.12",

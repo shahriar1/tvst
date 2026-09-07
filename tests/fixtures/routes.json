@@ -1,4 +1,9 @@
 {
   "/search/shows?q=game of thrones": "search-game-of-thrones.json",
-  "/shows/82?embed[]=nextepisode&embed[]=previousepisode": "show-82-embedded.json"
+  "/shows/82?embed[]=nextepisode&embed[]=previousepisode": "show-82-embedded.json",
+  "/schedule?country=US&date=2016-02-01": "schedule-us-2016-02-01.json",
+  "/schedule?country=US&date=2016-02-02": "schedule-us-2016-02-02.json",
+  "/schedule?country=US&date=2016-01-31": "schedule-us-2016-01-31.json",
+  "/schedule?country=GB&date=2016-02-01": "schedule-gb-2016-02-01.json",
+  "/schedule/web?date=2016-02-01": "schedule-web-2016-02-01.json"
 }
