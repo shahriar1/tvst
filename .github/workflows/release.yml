@@ -68,7 +68,7 @@ jobs:
       - id: meta
         uses: docker/metadata-action@v6
         with:
-          images: shahriar1/tvst
+          images: shahriar1only/tvst
           tags: |
             type=semver,pattern={{version}}
             type=semver,pattern={{major}}.{{minor}}

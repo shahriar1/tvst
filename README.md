@@ -3,7 +3,7 @@
 [![ci](https://github.com/shahriar1/tvst/actions/workflows/ci.yml/badge.svg)](https://github.com/shahriar1/tvst/actions/workflows/ci.yml)
 [![npm](https://img.shields.io/npm/v/tvst.svg)](https://www.npmjs.com/package/tvst)
 [![node](https://img.shields.io/node/v/tvst.svg)](https://nodejs.org)
-[![docker](https://img.shields.io/docker/v/shahriar1/tvst?label=docker)](https://hub.docker.com/r/shahriar1/tvst)
+[![docker](https://img.shields.io/docker/v/shahriar1only/tvst?label=docker)](https://hub.docker.com/r/shahriar1only/tvst)
 
 > TV Shows Tracker (TVST) on the command line
 
@@ -27,16 +27,16 @@ npx tvst schedule tonight
 
 ### Docker
 
-No Node.js? There is an image on [Docker Hub](https://hub.docker.com/r/shahriar1/tvst) for amd64 and arm64:
+No Node.js? There is an image on [Docker Hub](https://hub.docker.com/r/shahriar1only/tvst) for amd64 and arm64:
 
 ```bash
-docker run --rm -it -e TZ=Europe/London -v tvst:/data shahriar1/tvst schedule tonight
+docker run --rm -it -e TZ=Europe/London -v tvst:/data shahriar1only/tvst schedule tonight
 ```
 
 Set `TZ` to your own zone, otherwise "your time" is the container's UTC. Favorites are kept in the `tvst` volume, mounted at `/data`. `-it` gives you prompts and colors. An alias makes it feel native:
 
 ```bash
-alias tvst='docker run --rm -it -e TZ=Europe/London -v tvst:/data shahriar1/tvst'
+alias tvst='docker run --rm -it -e TZ=Europe/London -v tvst:/data shahriar1only/tvst'
 ```
 
 Upgrading from 0.x? See [Upgrading from 0.x](#upgrading-from-0x). Your old commands still work.

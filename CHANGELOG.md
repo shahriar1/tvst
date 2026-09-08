@@ -8,7 +8,7 @@ All notable changes to this project are documented here. The format follows
 
 ### Added
 
-- An official Docker image, `shahriar1/tvst` on Docker Hub, built for linux/amd64 and linux/arm64. Favorites live in `/data`, pass `TZ` for local times.
+- An official Docker image, `shahriar1only/tvst` on Docker Hub, built for linux/amd64 and linux/arm64. Favorites live in `/data`, pass `TZ` for local times.
 
 ## [1.0.0] - 2026-09-07
 
