@@ -4,6 +4,12 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses
 [Semantic Versioning](https://semver.org/).
 
+## [1.1.0] - 2026-09-08
+
+### Added
+
+- An official Docker image, `shahriar1only/tvst` on Docker Hub, built for linux/amd64 and linux/arm64. Favorites live in `/data`, pass `TZ` for local times.
+
 ## [1.0.0] - 2026-09-07
 
 A ground-up rewrite. The command line surface from 0.x keeps working, everything underneath is new.
@@ -48,5 +54,6 @@ A ground-up rewrite. The command line surface from 0.x keeps working, everything
 
 Dependency updates only. Last release of the 0.x line.
 
+[1.1.0]: https://github.com/shahriar1/tvst/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/shahriar1/tvst/compare/v0.2.2...v1.0.0
 [0.3.1]: https://github.com/shahriar1/tvst/releases/tag/v0.2.2

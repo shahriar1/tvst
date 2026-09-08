@@ -3,6 +3,7 @@
 [![ci](https://github.com/shahriar1/tvst/actions/workflows/ci.yml/badge.svg)](https://github.com/shahriar1/tvst/actions/workflows/ci.yml)
 [![npm](https://img.shields.io/npm/v/tvst.svg)](https://www.npmjs.com/package/tvst)
 [![node](https://img.shields.io/node/v/tvst.svg)](https://nodejs.org)
+[![docker](https://img.shields.io/docker/v/shahriar1only/tvst?label=docker)](https://hub.docker.com/r/shahriar1only/tvst)
 
 > TV Shows Tracker (TVST) on the command line
 
@@ -22,6 +23,20 @@ Or run it without installing:
 
 ```bash
 npx tvst schedule tonight
+```
+
+### Docker
+
+No Node.js? There is an image on [Docker Hub](https://hub.docker.com/r/shahriar1only/tvst) for amd64 and arm64:
+
+```bash
+docker run --rm -it -e TZ=Europe/London -v tvst:/data shahriar1only/tvst schedule tonight
+```
+
+Set `TZ` to your own zone, otherwise "your time" is the container's UTC. Favorites are kept in the `tvst` volume, mounted at `/data`. `-it` gives you prompts and colors. An alias makes it feel native:
+
+```bash
+alias tvst='docker run --rm -it -e TZ=Europe/London -v tvst:/data shahriar1only/tvst'
 ```
 
 Upgrading from 0.x? See [Upgrading from 0.x](#upgrading-from-0x). Your old commands still work.
@@ -134,6 +149,7 @@ Favorites are stored in a small JSON file in your OS config directory:
 - macOS: `~/Library/Preferences/tvst/config.json`
 - Linux: `~/.config/tvst/config.json` (or `$XDG_CONFIG_HOME/tvst/config.json`)
 - Windows: `%APPDATA%\tvst\Config\config.json`
+- Docker: `/data/config.json` (mount a volume there)
 
 `tvst fav list --json` prints the exact path.
 
@@ -168,7 +184,7 @@ npm run format
 
 The end-to-end tests run the built CLI against a local server that replays recorded TVMaze responses from `tests/fixtures`. To refresh them run `npm run fixtures:record` (add `-- --all` to re-record everything).
 
-Releases are published from GitHub Actions on a `v*` tag using npm trusted publishing, so no tokens are involved.
+Releases are published from GitHub Actions on a `v*` tag. The npm publish uses trusted publishing, so no token is involved; the Docker Hub push uses an access token stored in the `DOCKERHUB_USERNAME` and `DOCKERHUB_TOKEN` repository secrets.
 
 ## Credits
 

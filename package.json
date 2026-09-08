@@ -1,6 +1,6 @@
 {
   "name": "tvst",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "TV Shows Tracker (TVST) on the command line",
   "type": "module",
   "bin": {
