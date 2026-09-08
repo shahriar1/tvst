@@ -4,16 +4,29 @@
 [![npm](https://img.shields.io/npm/v/tvst.svg)](https://www.npmjs.com/package/tvst)
 [![node](https://img.shields.io/node/v/tvst.svg)](https://nodejs.org)
 [![docker](https://img.shields.io/docker/v/shahriar1only/tvst?label=docker)](https://hub.docker.com/r/shahriar1only/tvst)
+[![license](https://img.shields.io/npm/l/tvst.svg)](LICENSE)
 
-> TV Shows Tracker (TVST) on the command line
+**TV Shows Tracker (TVST) on the command line.**
 
 Find out what is on tonight, when the next episode of a show airs in *your* time zone, and keep a list of favorites, all from the terminal. Data comes from the [TVMaze API](https://www.tvmaze.com/api).
 
 ![tvst in a terminal](https://raw.githubusercontent.com/shahriar1/tvst/master/tvst.gif)
 
-## Install
+## Features
 
-Requires Node.js 22.12 or newer.
+- **Daily schedule** for any country, with natural-language dates (`tomorrow`, `next friday`, `feb 14`)
+- **Streaming releases** from Netflix, Apple TV and other web channels, alongside broadcast TV
+- **Next and previous episodes** of any show, shown in the network's time and in yours
+- **Show details**: summary, genres, rating, runtime, schedule and links
+- **Favorites** with a single timeline of everything airing in the coming days
+- **Scriptable**: `--json` on every command, meaningful exit codes, no prompts when piped
+- **Zero configuration**: no API key, no sign-up
+
+## Installation
+
+### npm
+
+Requires [Node.js](https://nodejs.org) 22.12 or newer.
 
 ```bash
 npm install -g tvst
@@ -27,21 +40,25 @@ npx tvst schedule tonight
 
 ### Docker
 
-No Node.js? There is an image on [Docker Hub](https://hub.docker.com/r/shahriar1only/tvst) for amd64 and arm64:
+An image is published to [Docker Hub](https://hub.docker.com/r/shahriar1only/tvst) for `linux/amd64` and `linux/arm64`. No Node.js required.
 
 ```bash
 docker run --rm -it -e TZ=Europe/London -v tvst:/data shahriar1only/tvst schedule tonight
 ```
 
-Set `TZ` to your own zone, otherwise "your time" is the container's UTC. Favorites are kept in the `tvst` volume, mounted at `/data`. `-it` gives you prompts and colors. An alias makes it feel native:
+- `TZ` sets the zone "your time" is shown in; without it the container uses UTC.
+- `-v tvst:/data` keeps favorites in a named volume between runs.
+- `-it` enables prompts and colors.
+
+A shell alias makes it feel native:
 
 ```bash
 alias tvst='docker run --rm -it -e TZ=Europe/London -v tvst:/data shahriar1only/tvst'
 ```
 
-Upgrading from 0.x? See [Upgrading from 0.x](#upgrading-from-0x). Your old commands still work.
+Tags follow the npm release: `latest`, `1`, `1.1` and `1.1.0`.
 
-## Quick start
+## Usage
 
 ```bash
 tvst schedule                      # what's on TV today (US)
@@ -55,7 +72,7 @@ tvst fav upcoming                  # ...and see what's coming up this week
 
 Show names never need quotes: `tvst next game of thrones` works.
 
-## Commands
+## Command reference
 
 ```
 tvst schedule [date]     list the TV schedule for a day (default: today, US)
@@ -69,7 +86,7 @@ tvst fav remove [name]   remove show(s) from your favorites          (alias: rm)
 tvst fav upcoming        episodes of your favorites airing soon
 ```
 
-Every command accepts `--json` for machine-readable output and `--no-color` to turn colors off. `tvst help <command>` shows the options for a command.
+Global options: `--json` for machine-readable output, `--no-color` to turn colors off, `--version`. Run `tvst help <command>` for the options of any command.
 
 ### schedule
 
@@ -96,12 +113,13 @@ tvst next the bear -n 1           # only the best match
 tvst prev game of thrones
 ```
 
-All matching shows are looked up. Shows with an upcoming episode get a full card; shows that have ended, or have nothing scheduled yet, are listed compactly with their last episode.
+All matching shows are looked up (five by default). Shows with an upcoming episode get a full card; shows that have ended, or have nothing scheduled yet, are listed compactly with their last episode.
 
 ### search / info
 
 ```bash
 tvst search westworld
+tvst search westworld -n 3        # limit the number of results
 tvst info westworld
 tvst info --id 1371               # look up by TVMaze id
 ```
@@ -122,7 +140,9 @@ tvst fav remove --all
 
 When the terminal is not interactive (a pipe, a script, CI) `fav add` and `fav remove` never prompt: they print the candidates and exit with code 2 so you can rerun with `--id`, `--first`, or an explicit name.
 
-## Scripting with --json
+## Scripting
+
+Every command accepts `--json`. With it, stdout is always valid JSON and errors go to stderr as `{"error": "...", "code": n}`.
 
 ```bash
 tvst schedule --json | jq '.episodes[] | select(.show.network == "HBO") | .show.name'
@@ -130,45 +150,49 @@ tvst next severance --json | jq -r '.shows[0].next.airs.local'
 tvst fav upcoming --days 3 --json | jq -r '.episodes[] | "\(.episode.airs.local)  \(.show.name)  \(.episode.code)"'
 ```
 
-With `--json`, stdout is always valid JSON and errors go to stderr as `{"error": "...", "code": n}`.
-
 ### Exit codes
 
-| code | meaning |
+| Code | Meaning |
 |-----:|---------|
-| 0 | success |
-| 1 | nothing found (no matching show, empty schedule, nothing upcoming) |
-| 2 | usage error (bad date, unknown command, missing argument) |
-| 3 | could not reach TVMaze |
-| 130 | cancelled at a prompt |
+| 0 | Success |
+| 1 | Nothing found (no matching show, empty schedule, nothing upcoming) |
+| 2 | Usage error (bad date, unknown command, missing argument) |
+| 3 | Could not reach TVMaze |
+| 130 | Cancelled at a prompt |
 
 ## Configuration
 
 Favorites are stored in a small JSON file in your OS config directory:
 
-- macOS: `~/Library/Preferences/tvst/config.json`
-- Linux: `~/.config/tvst/config.json` (or `$XDG_CONFIG_HOME/tvst/config.json`)
-- Windows: `%APPDATA%\tvst\Config\config.json`
-- Docker: `/data/config.json` (mount a volume there)
+| Platform | Location |
+|----------|----------|
+| macOS | `~/Library/Preferences/tvst/config.json` |
+| Linux | `~/.config/tvst/config.json` (or `$XDG_CONFIG_HOME/tvst/config.json`) |
+| Windows | `%APPDATA%\tvst\Config\config.json` |
+| Docker | `/data/config.json` (mount a volume there) |
 
 `tvst fav list --json` prints the exact path.
 
-Environment variables:
+### Environment variables
 
-| variable | effect |
+| Variable | Effect |
 |----------|--------|
-| `NO_COLOR` | disable colors (same as `--no-color`) |
-| `FORCE_COLOR` | force colors even when piping |
-| `TZ` | the zone "your time" is shown in (defaults to the system zone) |
-| `TVST_CONFIG_DIR` | store favorites somewhere else |
-| `TVST_API_BASE` | use another TVMaze-compatible API base URL (used by the tests) |
+| `TZ` | The zone "your time" is shown in (defaults to the system zone) |
+| `NO_COLOR` | Disable colors (same as `--no-color`) |
+| `FORCE_COLOR` | Force colors even when piping |
+| `TVST_CONFIG_DIR` | Store favorites somewhere else |
+| `TVST_API_BASE` | Use another TVMaze-compatible API base URL (used by the tests) |
 
 ## Upgrading from 0.x
 
-- `ne`, `pe`, `fav-add`, `fav-list` and `fav-remove` all still work as aliases of the new commands.
-- Favorites moved out of the package folder into your config directory, so they now survive `npm update`. If an old `storage/tvst-fav.json` is still around it is imported the first time you run 1.0.
+Your old commands still work. The changes worth knowing about:
+
+- `ne`, `pe`, `fav-add`, `fav-list` and `fav-remove` remain as aliases of the new commands.
+- Favorites moved out of the package folder into your config directory, so they now survive `npm update`. An old `storage/tvst-fav.json` is imported the first time you run 1.x.
 - Node.js 22.12 or newer is required.
-- Unknown commands and bad arguments now exit with code 2 instead of printing help and exiting 0.
+- Unknown commands and bad arguments exit with code 2 instead of printing help and exiting 0.
+
+See the [changelog](CHANGELOG.md) for the full list.
 
 ## Development
 
@@ -180,11 +204,32 @@ npm test              # build, then unit + offline e2e tests
 npm run test:live     # a few checks against the real API
 npm run lint          # biome
 npm run format
+npm run typecheck
 ```
 
 The end-to-end tests run the built CLI against a local server that replays recorded TVMaze responses from `tests/fixtures`. To refresh them run `npm run fixtures:record` (add `-- --all` to re-record everything).
 
-Releases are published from GitHub Actions on a `v*` tag. The npm publish uses trusted publishing, so no token is involved; the Docker Hub push uses an access token stored in the `DOCKERHUB_USERNAME` and `DOCKERHUB_TOKEN` repository secrets.
+CI runs lint, typecheck, build and tests on Node 22, 24 and 26 on Linux, and Node 24 on Windows, and builds the Docker image. The live API smoke test is a manual workflow.
+
+To build the image locally:
+
+```bash
+docker build -t tvst .
+docker run --rm tvst --version
+```
+
+### Releasing
+
+1. Update `CHANGELOG.md` and bump the version in `package.json`.
+2. Commit and push a `v*` tag matching the version.
+
+The release workflow publishes to npm via trusted publishing (no token involved), creates a GitHub release from the changelog entry, and pushes the multi-arch Docker image to Docker Hub using the `DOCKERHUB_USERNAME` and `DOCKERHUB_TOKEN` repository secrets.
+
+The demo GIF is recorded with [VHS](https://github.com/charmbracelet/vhs) from `tvst.tape`.
+
+## Contributing
+
+Issues and pull requests are welcome at [github.com/shahriar1/tvst](https://github.com/shahriar1/tvst/issues). Please run `npm run lint` and `npm test` before opening a PR.
 
 ## Credits
 
@@ -192,4 +237,4 @@ TV data is provided by the [TVMaze API](https://www.tvmaze.com/api) under the [C
 
 ## License
 
-MIT © [Shahriar Mahmood](https://github.com/shahriar1)
+[MIT](LICENSE) © [Shahriar Mahmood](https://github.com/shahriar1)
