@@ -36,3 +36,30 @@ jobs:
       - run: npm run build
       - run: npm test
       - run: node dist/cli.js --version
+
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: docker/setup-buildx-action@v4
+      - uses: docker/build-push-action@v7
+        with:
+          context: .
+          platforms: linux/amd64
+          load: true
+          tags: tvst:ci
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+      - name: the image reports the package version
+        run: |
+          expected="$(node -p "require('./package.json').version")"
+          actual="$(docker run --rm tvst:ci --version)"
+          [ "$actual" = "$expected" ] || { echo "got $actual, want $expected" >&2; exit 1; }
+      - name: zone data is installed
+        run: |
+          zone="$(docker run --rm -e TZ=Europe/London --entrypoint node tvst:ci -p 'Intl.DateTimeFormat().resolvedOptions().timeZone')"
+          [ "$zone" = "Europe/London" ] || { echo "got $zone" >&2; exit 1; }
+      - name: favorites are writable and we are not root
+        run: |
+          docker run --rm tvst:ci fav list --json
+          [ "$(docker run --rm --entrypoint id tvst:ci -u)" != "0" ]
